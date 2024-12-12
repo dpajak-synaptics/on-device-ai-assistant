@@ -1,0 +1,470 @@
+[
+    {   
+        "question": "Ok, thanks",
+        "answer": "You're welcome"
+    },
+    {   
+        "question": "Who are you? What is your name?",
+        "answer": "I am an AI assistant running on Synaptics Astra SL 16 80"
+    },
+    {
+        "question": "My dishwasher won't start.",
+        "answer": "If your dishwasher isn't starting, check that it's plugged in, the circuit breaker hasn't tripped, the door is fully closed, and the Power button is activated."
+    },
+    {
+        "question": "The applicance will not power on",
+        "answer": "If your dishwasher isn't starting, check that it's plugged in, the circuit breaker hasn't tripped, the door is fully closed, and the Power button is activated."
+    },
+    {
+        "question": "It won't start.",
+        "answer": "Ensure the appliance is connected to power, the door latch is engaged, and you've pressed the Start button to initiate the cycle."
+    },
+    {
+        "question": "Dishwasher won't start.",
+        "answer": "Verify that the dishwasher is properly plugged in, the door is securely shut, and the control panel is responsive."
+    },
+    {
+        "question": "My dishwasher is leaking.",
+        "answer": "If you notice water leaking, inspect the door gasket for damage or debris, and make sure dishes aren't obstructing the door closure."
+    },
+    {
+        "question": "It is leaking.",
+        "answer": "A leak could be due to a worn-out door seal; clean it gently and check for any signs of wear or damage."
+    },
+    {
+        "question": "Dishwasher is leaking.",
+        "answer": "Ensure that the dishwasher is level, and examine the hoses and connections for any leaks or loose fittings."
+    },
+    {
+        "question": "My dishes aren't getting clean.",
+        "answer": "If dishes are coming out dirty, make sure the spray arms are not clogged and can rotate freely. Also, check that you're using the correct amount of detergent."
+    },
+    {
+        "question": "It isn't washing properly.",
+        "answer": "Confirm that the dishwasher isn't overloaded, the spray arms are clean, and you're selecting the appropriate wash cycle for your load."
+    },
+    {
+        "question": "Dishes are still dirty.",
+        "answer": "Ensure that dishes are properly loaded without blocking the spray arms, and that the filter is clean to allow proper water circulation."
+    },
+    {
+        "question": "How do I install the dishwasher?",
+        "answer": "Place the dishwasher on a flat surface, connect it to the cold water supply. Leave at least 5 cm of space around it for ventilation, and plug it into an accessible power outlet."
+    },
+    {
+        "question": "How do I connect the dishwasher to the water supply?",
+        "answer": "Attach the inlet hose to the cold water tap, ensuring it's securely connected to both the tap and the dishwasher's inlet valve. Check for any leaks before operating."
+    },
+    {
+        "question": "How do I turn the dishwasher on?",
+        "answer": "Press the Power button located on the control panel. The display should light up, indicating that the dishwasher is ready for cycle selection."
+    },
+    {
+        "question": "How do I select a wash cycle?",
+        "answer": "Use the Program Selector button to browse through available cycles."
+    },
+    {
+        "question": "What wash cycles are available?",
+        "answer": "Available wash cycles are Normal Wash, Heavy Wash, Quick Wash, Eco Wash, and Rinse Only"
+    },
+    {
+        "question": "How do I load the dishwasher?",
+        "answer": "Place plates, glasses, and utensils in their designated racks. Ensure that items do not block the spray arms and that larger items are placed at the sides or back."
+    },
+    {
+        "question": "How do I add detergent?",
+        "answer": "Open the detergent dispenser compartment, add the recommended amount of dishwasher detergent based on the cycle and water hardness, and close the compartment securely."
+    },
+    {
+        "question": "How do I start a wash cycle?",
+        "answer": "After loading dishes and selecting your wash program, press the Start button. The door will lock, and the dishwasher will begin the cycle."
+    },
+    {
+        "question": "What should I do at the end of the wash cycle?",
+        "answer": "When the cycle completes, the dishwasher will signal with a beep. You can then open the door to allow steam to escape and let the dishes cool before unloading."
+    },
+    {
+        "question": "How do I clean the filter?",
+        "answer": "Remove the bottom rack to access the filter. Twist and lift it out, rinse under warm water to remove debris, and reinstall it by aligning and twisting it back into place."
+    },
+    {
+        "question": "How do I clean the spray arms?",
+        "answer": "Detach the upper and lower spray arms by unscrewing them. Rinse under running water to remove any blockages, then reattach them securely."
+    },
+    {
+        "question": "What should I do if the dishwasher does not start?",
+        "answer": "Check that the power cord is plugged in, the door is properly latched, the water supply is turned on, and that you've selected a wash cycle and pressed Start."
+    },
+    {
+        "question": "What should I do if the dishwasher is not draining?",
+        "answer": "Inspect the drain hose for kinks or blockages, and check that the filter and garbage disposal (if connected) are clean."
+    },
+    {
+        "question": "What is the support number?",
+        "answer": "For any assistance, please contact our customer service at 1 800 1 2 3 45 67."
+    },
+    {
+        "question": "How long is the warranty?",
+        "answer": "Our dishwasher comes with a 2-year limited warranty covering parts and labor under normal residential use."
+    },
+    {
+        "question": "How do I adjust the top rack?",
+        "answer": "Locate the adjustment levers on either side of the upper rack. Lift them to raise or lower the rack to accommodate taller items."
+    },
+    {
+        "question": "Can I wash plastic items?",
+        "answer": "Yes, but only place dishwasher-safe plastics on the top rack to prevent warping from heat."
+    },
+    {
+        "question": "What detergents are recommended?",
+        "answer": "We recommend using high-quality automatic dishwasher detergents in powder, liquid, or tablet form."
+    },
+    {
+        "question": "How do I use the delay start function?",
+        "answer": "Press the Delay Start button until you reach the desired delay time (1-24 hours), then select your wash cycle and press Start."
+    },
+    {
+        "question": "The dishwasher is making unusual noises.",
+        "answer": "Unusual sounds may be caused by items touching the spray arms. Rearrange the dishes to ensure nothing is interfering with their rotation."
+    },
+    {
+        "question": "The dishes are not drying properly.",
+        "answer": "Make sure you are using rinse aid to enhance drying, and select a cycle with a drying phase."
+    },
+    {
+        "question": "The dishwasher has a bad odor.",
+        "answer": "Run an empty cycle with a dishwasher cleaner or a cup of white vinegar placed on the top rack to eliminate odors."
+    },
+    {
+        "question": "How do I reset the dishwasher?",
+        "answer": "To reset, press and hold the Start button for 3 seconds to cancel the current cycle, then select a new cycle if needed."
+    },
+    {
+        "question": "What does the error code E1 mean?",
+        "answer": "Error code E1 indicates a water inlet problem. Check that the water supply is on and the inlet hose is not kinked or blocked."
+    },
+    {
+        "question": "How do I descale the dishwasher?",
+        "answer": "Use a descaling agent specifically designed for dishwashers and run an empty cycle according to the product instructions."
+    },
+    {
+        "question": "Can I open the dishwasher during a cycle?",
+        "answer": "Yes, but open the door carefully to avoid hot steam. The cycle will pause and can be resumed by closing the door and pressing Start."
+    },
+    {
+        "question": "The dishwasher door won't close.",
+        "answer": "Check for any obstructions like utensils or large dishes preventing the door from closing fully."
+    },
+    {
+        "question": "How do I change the language settings?",
+        "answer": "Access the settings menu by pressing and holding the Program and Delay buttons for 5 seconds, then navigate to language options."
+    },
+    {
+        "question": "What is the energy consumption of the dishwasher?",
+        "answer": "The dishwasher uses approximately 1.05 kilowatt hours per cycle, on the standard Normal Wash setting."
+    },
+    {
+        "question": "How much water does the dishwasher use?",
+        "answer": "It consumes about 12 liters of water per cycle when using the Normal Wash program."
+    },
+    {
+        "question": "Can I connect the dishwasher to hot water?",
+        "answer": "It's recommended to connect to a cold water supply. Connecting to hot water may affect wash performance and energy efficiency."
+    },
+    {
+        "question": "How do I cancel a running cycle?",
+        "answer": "Press and hold the Cancel button for 3 seconds. The dishwasher will drain and return to standby mode."
+    },
+    {
+        "question": "What is the maximum dish size that fits?",
+        "answer": "With the upper rack adjusted, dishes up to 12 inches in diameter can fit in the lower rack."
+    },
+    {
+        "question": "How do I use the child lock feature?",
+        "answer": "Activate the child lock by pressing and holding the Child Lock button for 3 seconds. This will disable the control panel."
+    },
+    {
+        "question": "Can I use tablet detergents?",
+        "answer": "Yes, tablet detergents are compatible. Place the tablet in the main detergent dispenser."
+    },
+    {
+        "question": "The control panel is not responding.",
+        "answer": "Ensure that the child lock isn't activated. If it is, deactivate it by pressing and holding the Child Lock button for 3 seconds."
+    },
+    {
+        "question": "How often should I clean the filter?",
+        "answer": "For optimal performance, clean the filter at least once a month or more frequently if needed."
+    },
+    {
+        "question": "What materials are not dishwasher-safe?",
+        "answer": "Avoid washing wood, cast iron, fine china, crystal, and non-dishwasher-safe plastics."
+    },
+    {
+        "question": "How do I adjust the rinse aid dosage?",
+        "answer": "Turn the knob inside the rinse aid dispenser to increase or decrease the amount released per cycle."
+    },
+    {
+        "question": "What is the noise level of the dishwasher?",
+        "answer": "The dishwasher operates quietly at around 45 decibels."
+    },
+    {
+        "question": "How do I replace the door seal?",
+        "answer": "Order a replacement gasket from customer service and follow the instructions provided to remove the old seal and install the new one."
+    },
+    {
+        "question": "Can I pause a cycle?",
+        "answer": "Yes, to pause the cycle, simply open the door. Resume by closing the door and pressing the Start button."
+    },
+    {
+        "question": "What does the salt indicator light mean?",
+        "answer": "It indicates that the water softener salt reservoir is low. Refill it to ensure optimal cleaning performance."
+    },
+    {
+        "question": "How do I fill the salt reservoir?",
+        "answer": "Unscrew the cap of the salt reservoir located at the bottom of the dishwasher and fill it with dishwasher-specific salt using a funnel."
+    },
+    {
+        "question": "Is pre-rinsing dishes necessary?",
+        "answer": "Pre-rinsing isn't required. Simply scrape off large food particles before loading."
+    },
+    {
+        "question": "How do I set the water hardness level?",
+        "answer": "Refer to the user manual to adjust the water hardness settings via the control panel, based on your local water hardness."
+    },
+    {
+        "question": "What is the Drying function?",
+        "answer": "The Drying function uses heat to evaporate moisture, leaving your dishes dry at the end of the cycle."
+    },
+    {
+        "question": "How do I know when the rinse aid is low?",
+        "answer": "A rinse aid indicator light on the control panel will illuminate when it's time to refill."
+    },
+    {
+        "question": "Can I run the dishwasher overnight?",
+        "answer": "Yes, you can use the Delay Start function to run the dishwasher during off-peak hours or overnight."
+    },
+    {
+        "question": "How do I clean the exterior of the dishwasher?",
+        "answer": "Wipe the exterior with a soft cloth dampened with mild soapy water. Avoid abrasive cleaners."
+    },
+    {
+        "question": "What should I do during a power outage?",
+        "answer": "The dishwasher will pause during a power outage. Once power is restored, it may resume the cycle or you may need to restart it."
+    },
+    {
+        "question": "How do I update the dishwasher's software?",
+        "answer": "If software updates are available, they can be performed via a USB port or Wi-Fi connection, following the instructions in the user manual."
+    },
+    {
+        "question": "Can I wash non-stick cookware?",
+        "answer": "While some non-stick items are dishwasher-safe, hand washing is recommended to prolong their lifespan."
+    },
+    {
+        "question": "How do I dispose of the dishwasher at the end of its life?",
+        "answer": "Dispose of the appliance according to local electronic waste regulations. Contact your local waste management facility for guidance."
+    },
+    {
+        "question": "Does the dishwasher have a self-cleaning cycle?",
+        "answer": "Yes, select the Self-Clean or Machine Care cycle to clean the interior components."
+    },
+    {
+        "question": "How do I prevent glassware from clouding?",
+        "answer": "Use a rinse aid and ensure the water hardness setting is correct to prevent mineral deposits on glassware."
+    },
+    {
+        "question": "Why is there water left in the detergent dispenser?",
+        "answer": "A small amount of water remaining is normal. If excessive, ensure the dispenser isn't blocked and can open fully during the cycle."
+    },
+    {
+        "question": "Can I interrupt a cycle to add more dishes?",
+        "answer": "Yes, open the door carefully to pause the cycle, add the dishes, then close the door and press Start to resume."
+    },
+    {
+        "question": "What is the maximum load capacity?",
+        "answer": "The dishwasher can accommodate up to 14 place settings in a single load."
+    },
+    {
+        "question": "How do I use the eco wash cycle?",
+        "answer": "Select the Eco Wash cycle from the program options for an energy-efficient wash that conserves water and electricity."
+    },
+    {
+        "question": "What does the rinse aid do?",
+        "answer": "Rinse aid helps to reduce water spots and improve drying by causing water to sheet off dishes."
+    },
+    {
+        "question": "How do I clean the stainless steel interior?",
+        "answer": "Wipe the interior with a damp cloth or run an empty cycle with a dishwasher cleaner designed for stainless steel interiors."
+    },
+    {
+        "question": "Can I use vinegar as a rinse aid?",
+        "answer": "It's not recommended to use vinegar as it can damage the dishwasher's rubber components. Use a commercially available rinse aid instead."
+    },
+    {
+        "question": "What temperature does the dishwasher reach?",
+        "answer": "The dishwasher heats water up to 65°C (149°F) during the hottest wash cycle."
+    },
+    {
+        "question": "How do I know if the wash cycle is complete?",
+        "answer": "The control panel will display an 'End' message or the dishwasher will emit a series of beeps."
+    },
+    {
+        "question": "Can I stack dishes?",
+        "answer": "Avoid stacking dishes as it can prevent proper cleaning. Each item should have access to water spray."
+    },
+    {
+        "question": "How do I prevent etching on glassware?",
+        "answer": "Use less detergent, avoid extremely hot water cycles, and remove glassware promptly after the cycle ends."
+    },
+    {
+        "question": "Why is there standing water in the bottom?",
+        "answer": "A small amount of water is normal. If excessive, check for clogs in the drain filter or hose."
+    },
+    {
+        "question": "What is the Quick Wash cycle?",
+        "answer": "Quick Wash is a shorter cycle ideal for lightly soiled dishes that need a fast turnaround."
+    },
+    {
+        "question": "How do I care for the exterior finish?",
+        "answer": "For stainless steel exteriors, use a stainless steel cleaner. For other finishes, use a mild detergent and soft cloth."
+    },
+    {
+        "question": "Is it safe to wash baby bottles?",
+        "answer": "Yes, place dishwasher-safe baby bottles on the top rack and use a sanitizing cycle if available."
+    },
+    {
+        "question": "Can I use bleach in the dishwasher?",
+        "answer": "Do not use bleach or products containing chlorine as they can damage the dishwasher's components."
+    },
+    {
+        "question": "How do I remove hard water deposits?",
+        "answer": "Use a dishwasher cleaner specifically designed to remove limescale and mineral buildup."
+    },
+    {
+        "question": "Why is the dishwasher not filling with water?",
+        "answer": "Check that the water supply is turned on, the inlet hose isn't kinked, and the inlet valve filter isn't clogged."
+    },
+    {
+        "question": "What does the sanitize option do?",
+        "answer": "The sanitize option increases the water temperature to eliminate 99.9% of bacteria on dishes."
+    },
+    {
+        "question": "How do I fix a cloudy film on dishes?",
+        "answer": "Ensure you're using the correct amount of detergent and rinse aid, and check water hardness settings."
+    },
+    {
+        "question": "Can I wash cookware with non-removable handles?",
+        "answer": "If the cookware is dishwasher-safe and fits properly, it can be washed. Place it securely to prevent movement."
+    },
+    {
+        "question": "How do I handle a dishwasher overflow?",
+        "answer": "Turn off the dishwasher and unplug it. Clean up any spilled water and check for causes like excessive suds or blockages."
+    },
+    {
+        "question": "What causes a white residue on dishes?",
+        "answer": "White residue is often due to hard water minerals. Use a rinse aid and adjust the water hardness setting."
+    },
+    {
+        "question": "Is it normal for steam to come out during operation?",
+        "answer": "Yes, some steam release is normal, especially during the drying phase."
+    },
+    {
+        "question": "Can I use pods in the dishwasher?",
+        "answer": "Yes, dishwasher detergent pods can be placed in the main detergent compartment."
+    },
+    {
+        "question": "How do I troubleshoot a flashing light on the control panel?",
+        "answer": "Refer to the user manual for specific error codes associated with flashing lights."
+    },
+    {
+        "question": "What maintenance does the dishwasher require?",
+        "answer": "Regularly clean the filter, check spray arms, wipe down seals, and run a cleaning cycle monthly."
+    },
+    {
+        "question": "Can I wash cutting boards?",
+        "answer": "Dishwasher-safe cutting boards can be washed, but wooden boards should be hand-washed."
+    },
+    {
+        "question": "How do I prevent the dishwasher from smelling musty?",
+        "answer": "Leave the door slightly ajar when not in use to allow air circulation and prevent mold growth."
+    },
+    {
+        "question": "What is the purpose of the top spray arm?",
+        "answer": "The top spray arm helps clean items on the upper rack by distributing water evenly."
+    },
+    {
+        "question": "Why are my silver utensils tarnishing?",
+        "answer": "Silver can react with certain foods and detergents. Wash silver separately and avoid contact with stainless steel."
+    },
+    {
+        "question": "How do I load wine glasses?",
+        "answer": "Place wine glasses securely in the top rack, using stemware holders if available to prevent tipping."
+    },
+    {
+        "question": "I've tried everything and the dishwasher still won't start. What should I do?",
+        "answer": "If your dishwasher remains unresponsive after checking the power supply, door latch, and control panel, it may require professional attention. Please contact our customer support at 1-800-123-4567 for further assistance."
+    },
+    {
+        "question": "This dishwasher constantly leaks and I'm fed up. How can I fix this?",
+        "answer": "We're sorry to hear about the persistent leaking. This could indicate a faulty component that needs servicing. Please schedule a service appointment by calling us at 1-800-123-4567."
+    },
+    {
+        "question": "My dishes are always dirty even after multiple cycles. What's the point of this dishwasher?",
+        "answer": "We apologize for the inconvenience. Consistently dirty dishes may result from an issue with the wash system. Ensure the spray arms are clean and unobstructed, and that you're using the recommended detergent. If the problem persists, please contact our customer service for support."
+    },
+    {
+        "question": "I've had enough of these issues. How do I get a refund or replacement?",
+        "answer": "We understand your frustration. For information on refunds or replacements, please review our warranty policy and contact customer service at 1-800-123-4567 to discuss your options."
+    },
+    {
+        "question": "Your customer service is terrible. How can I speak to a manager?",
+        "answer": "We're sorry to hear about your experience. Please call our customer service line. We are committed to addressing your concerns."
+    },
+    {
+        "question": "I am unhappy",
+        "answer": "Sorry I couldn't help. Please call our customer service line at 1 800 1 2 3 45 67 and request to speak with a supervisor. We are committed to addressing your concerns."
+    },
+    {
+        "question": "hello",
+        "answer": "Hello! How can I assist you today?"
+    },
+    {
+        "question": "how are you?",
+        "answer": "I'm a virtual assistant, so I'm always ready to help. How can I assist you today?"
+    },
+    {
+        "question": "My dishwasher stopped mid-cycle, what do I do?",
+        "answer": "If the dishwasher stopped mid-cycle, check for a power outage or a tripped breaker. Make sure the door is fully latched and try pressing the Start button to resume."
+    },
+    {
+        "question": "Why is there a burning smell coming from the dishwasher?",
+        "answer": "A burning smell may indicate a blocked motor or an object touching the heating element. Stop the dishwasher, inspect for obstructions, and ensure no plastic items are near the heating element."
+    },
+    {
+        "question": "Why is my dishwasher's detergent door not opening?",
+        "answer": "If the detergent door doesn’t open, ensure the door latch is working and not obstructed. Make sure you're not overloading near the detergent compartment."
+    },
+    {
+        "question": "Why is my dishwasher still running after hours?",
+        "answer": "If the dishwasher runs unusually long, check if it’s in a heavy wash or sanitizing cycle, which may extend run time. If it seems stuck, try resetting it by holding the Start button for a few seconds."
+    },
+    {
+        "question": "My dishwasher isn’t drying my dishes. Why?",
+        "answer": "For effective drying, use a rinse aid and select a drying cycle if available. Avoid overloading, as it can block airflow, and open the door after the cycle to release steam."
+    },  
+    {
+        "question": "What's the time?",
+        "answer": "{time}"
+    },
+    {
+        "question": "What's the weather like?",
+        "answer": "{weather}"
+    },
+    {
+        "question": "Tell me a joke",
+        "answer": "{joke}"
+    },
+    {
+        "question": "Show me the system status",
+        "answer": "{status}"
+    }
+]

@@ -1,0 +1,7 @@
+numpy
+scikit-learn
+tqdm
+sounddevice
+silero-vad
+tokenizers
+pandas
