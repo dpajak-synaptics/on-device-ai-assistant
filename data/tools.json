@@ -10,5 +10,5 @@
     {
         "token": "{joke}",
         "command": "curl -s 'https://official-joke-api.appspot.com/random_joke' | sed -n 's/.*\"setup\":\"\\([^\"]*\\)\",\"punchline\":\"\\([^\"]*\\)\".*/\\1 \\2/p'"
-    },
+    }
 ]
