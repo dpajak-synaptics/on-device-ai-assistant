@@ -24,9 +24,9 @@ Created by Dominic Pajak, Synaptics Inc. with thanks to Aditya Sahu, Andrew Dugg
 
 ### Prerequisites
 
-- Synaptics Astra SL1680 board with Astra OOBE image v1.2.
-- Internet connection for initial setup.
-- USB sound device connected to ALSA device `1,0`.
+- Synaptics Astra SL1680 board with Astra OOBE image v1.3
+- Internet connection for initial setup
+- USB speakerphone device connected (check it is recognized by using `aplay -l`)
 
 ### Steps
 
@@ -95,11 +95,6 @@ Refer to [tools.json](https://github.com/dpajak-synaptics/on-device-assistant/bl
 **Q** - What can I see?  
 **A** - I can see a {call_vision} (Vision model invoked for object recognition.)
 
-
-
-## Audio Configuration
-
-Application searches waits for a USB audio device to be connected to ALSA. e.g. `plughw:1,0`.
 
 ---
 
