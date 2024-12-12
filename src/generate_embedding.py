@@ -17,7 +17,7 @@ def download_quantized_model():
     try:
         model_path = hf_hub_download(
             repo_id="second-state/All-MiniLM-L6-v2-Embedding-GGUF",
-            filename="all-MiniLM-L6-v2-Q5_K_M.gguf"
+            filename="all-MiniLM-L6-v2-Q8_0.gguf"
         )
         return model_path
     except Exception as e:

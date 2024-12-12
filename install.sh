@@ -43,7 +43,8 @@ print_message $GREEN "=================================\n"
 git clone --branch master --single-branch https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
 cmake -B build
-cmake --build build --config Release
+cmake --build build --config release --target llama-embedding
+
 
 cd "$CURRENT_DIR"
 

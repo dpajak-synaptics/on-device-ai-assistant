@@ -91,7 +91,7 @@ def answer_query(query, qa_pairs, question_embeddings):
     return qa_pairs[best_match_idx]["answer"]
 
 def run_command_tokens(answer):
-    """Replace tokens in the answer with results of corresponding commands."""
+    return answer # FIXME
     with open(f'{DEMO_DIR}/data/tools.json') as f:
         token_command_list = json.load(f)
 
@@ -110,8 +110,8 @@ def handle_end_of_recording(speech, marker, qa_pairs, question_embeddings, audio
         raise ValueError("Unexpected marker length.")
 
     text = speechToText.transcribe(speech)
+    print(text)
     query = text
-
     raw_answer = answer_query(query, qa_pairs, question_embeddings)
     answer = run_command_tokens(raw_answer)
 
