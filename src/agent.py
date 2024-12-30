@@ -6,20 +6,83 @@ from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
 from src.generate_embedding import generate_embedding
 from src.utils import file_checksum
+from collections import Counter
+import re
 
 DEMO_DIR = os.path.dirname(__file__)
-QA_DATA = f'{DEMO_DIR}/../data/question_answers.json'
+QA_DATA = f'{DEMO_DIR}/../data/dishwasher.json'
+
 
 class Agent:
-    def __init__(self):
+    def __init__(self, threshold=0.5, keyword_weight=0.5, semantic_weight=1.2):
+        self.threshold = threshold
+        self.keyword_weight = keyword_weight
+        self.semantic_weight = semantic_weight
+        self.stop_words = {
+            "a", "an", "the", "and", "or", "but", "if", "then", "else", "when", "while", 
+            "of", "to", "in", "on", "at", "by", "for", "with", "about", "as", "into", 
+            "like", "through", "after", "over", "between", "out", "against", "during", 
+            "without", "within", "under", "above", "up", "down", "off", "near", "this", 
+            "that", "these", "those", "is", "am", "are", "was", "were", "be", "been", 
+            "being", "have", "has", "had", "do", "does", "did", "can", "could", "shall", 
+            "should", "will", "would", "may", "might", "must", "ought", "i", "you", "he", 
+            "she", "it", "we", "they", "me", "him", "her", "us", "them", "my", "your", 
+            "his", "her", "its", "our", "their", "mine", "yours", "hers", "ours", 
+            "theirs", "what", "which", "who", "whom", "this", "that", "these", "those", 
+            "there", "here", "when", "where", "why", "how", "all", "any", "both", 
+            "each", "few", "many", "more", "most", "some", "such", "no", "nor", "not", 
+            "only", "own", "same", "so", "than", "too", "very"
+        }
         self.qa_pairs = self.load_manual_data()
         self.question_embeddings = self.load_embeddings(self.qa_pairs)
 
+
+    def preprocess_text(self, text):
+        """Preprocess text by tokenizing, normalizing, and removing stop words."""
+        text = text.lower()
+        text = re.sub(r'[^a-z0-9\\s]', '', text)  # Remove non-alphanumeric characters
+        tokens = text.split()
+        filtered_tokens = [token for token in tokens if token not in self.stop_words]
+        return filtered_tokens
+
     def load_manual_data(self):
-        """Load QA data from a JSON file and cache it as a TSV file."""
+        """Load QA data from a JSON file, cache it as a TSV file, and extract keywords."""
         filename = QA_DATA
         with open(filename, 'r') as file:
-            manual_data = json.load(file)
+            file = json.load(file)
+
+        manual_data = file['qa_pairs']
+        self.valQuestions = file['validation']['questions']
+        self.valAnswers = file['validation']['answers']
+
+        # Pre-extract keywords for all questions
+        for pair in manual_data:
+            pair['keywords'] = Counter(self.preprocess_text(pair['question']))
+
+        qa_df = pd.DataFrame(manual_data)
+        qa_df.to_csv(f'{DEMO_DIR}/../cached/metadata.tsv', index=False, header=True, sep='\t')
+
+        return manual_data
+
+    def keyword_match_score(self, query, question_keywords):
+        """Calculate a simple keyword overlap score."""
+        query_tokens = Counter(self.preprocess_text(query))
+        intersection = sum((query_tokens & question_keywords).values())
+        total = sum(query_tokens.values())
+        return intersection / total if total > 0 else 0
+    def load_manual_data(self):
+        """Load QA data from a JSON file, cache it as a TSV file, and extract keywords."""
+        filename = QA_DATA
+        with open(filename, 'r') as file:
+            file = json.load(file)
+
+        manual_data = file['qa_pairs']
+        self.valQuestions = file['validation']['questions']
+        self.valAnswers = file['validation']['answers']
+
+        # Pre-extract keywords for all questions
+        for pair in manual_data:
+            pair['keywords'] = Counter(self.preprocess_text(pair['question']))
 
         qa_df = pd.DataFrame(manual_data)
         qa_df.to_csv(f'{DEMO_DIR}/../cached/metadata.tsv', index=False, header=True, sep='\t')
@@ -35,7 +98,7 @@ class Agent:
             return embeddings
 
         print("Generating question embeddings...")
-        questions = [pair["question"] for pair in qa_pairs]
+        questions = [pair["question"] + " " + pair["answer"] for pair in qa_pairs]
         question_embeddings = np.array([generate_embedding(q) for q in tqdm(questions)])
 
         embedding_df = pd.DataFrame(question_embeddings)
@@ -43,21 +106,44 @@ class Agent:
 
         return question_embeddings
 
+    def keyword_match_score(self, query, question_keywords):
+        """Calculate a simple keyword overlap score."""
+        query_tokens = Counter(self.preprocess_text(query))
+        intersection = sum((query_tokens & question_keywords).values())
+        total = sum(query_tokens.values())
+        return intersection / total if total > 0 else 0
+
     def answer_query(self, query):
-        """Find the best answer to a query using cosine similarity."""
+        """Find the best answer to a query using combined semantic and keyword search."""
         query_embedding = generate_embedding(query)
 
         if query_embedding is None:
             return "Sorry, I couldn't generate an embedding for your query."
 
+        # Semantic similarity
         similarities = cosine_similarity([query_embedding], self.question_embeddings).flatten()
-        threshold = max(0.3, similarities.mean() - similarities.std())
 
-        if similarities.max() < threshold:
-            return "Sorry, I don't know the answer to that question."
+        # Keyword similarity
+        keyword_scores = [
+            self.keyword_match_score(query, pair["keywords"])
+            for pair in self.qa_pairs
+        ]
 
-        best_match_idx = np.argmax(similarities)
-        return self.qa_pairs[best_match_idx]["answer"]
+        # Combined score
+        combined_scores = (
+            self.semantic_weight * similarities + self.keyword_weight * np.array(keyword_scores)
+        )
+
+        best_match_idx = np.argmax(combined_scores)
+        best_match_answer = self.qa_pairs[best_match_idx]["answer"]
+        best_match_similarity = float(combined_scores[best_match_idx])
+
+        return {
+            'answer': best_match_answer,
+            'similarity': best_match_similarity,
+            'semantic_similarity': float(similarities[best_match_idx]),
+            'keyword_score': keyword_scores[best_match_idx]
+        }
 
     def run_command_tokens(self, answer):
         """Process and replace command tokens in the answer."""
@@ -80,10 +166,15 @@ class Agent:
 
     def handle_query(self, query):
         """Process text query and generate a response."""
-        # Generate raw answer
-        raw_answer = self.answer_query(query)
+        result = self.answer_query(query)
+        answer = result['answer']
+        similarity = result['similarity']
 
-        # Process commands in answer
-        processed_answer = self.run_command_tokens(raw_answer)
+        # Process commands in answer if threshold is met
+        if similarity >= self.threshold:
+            answer = self.run_command_tokens(answer)
 
-        return processed_answer
+        return {
+            "answer": answer,
+            "confidence": similarity
+        }

@@ -1,0 +1,1337 @@
+{
+    "qa_pairs": [
+      {
+        "question": "How do I start using my dishwasher?",
+        "answer": "To start using your dishwasher, first place your dirty dishes inside. Make sure not to overcrowd the machine. Then add detergent in the designated area and check if you need to add rinse aid. Close the door and select the desired wash cycle. Finally, press the start button."
+      },
+      {
+        "question": "What type of detergent should I use?",
+        "answer": "You should use dishwasher detergents that are phosphate-free and specially designed for dishwashers. Tablets and packs are recommended for convenience and better cleaning."
+      },
+      {
+        "question": "What is rinse aid and why do I need it?",
+        "answer": "Rinse aid helps your dishes dry better and prevents hard water spots. It improves washing performance by allowing water to sheet off your dishes instead of forming droplets."
+      },
+      {
+        "question": "How often should I add rinse aid?",
+        "answer": "You should check the rinse aid dispenser regularly. Fill it whenever it is low to ensure optimal drying performance."
+      },
+      {
+        "question": "Can I overload the dishwasher?",
+        "answer": "It is not a good idea to overload the dishwasher. Always leave enough space for water to circulate around the dishes for proper cleaning."
+      },
+      {
+        "question": "What should I do if my dishes are still dirty after a wash?",
+        "answer": "First, check if you are using enough detergent and rinse aid. Ensure the dishes are properly loaded and not blocking the spray arms. Try running the dishwasher on a longer cycle next time."
+      },
+      {
+        "question": "How do I clean the filters in my dishwasher?",
+        "answer": "To clean the filters, first remove them from the bottom of the dishwasher. Rinse them under running water to remove any debris. Be sure to do this at least once a month."
+      },
+      {
+        "question": "What happens if I don’t use rinse aid?",
+        "answer": "If you don’t use rinse aid, your dishes may come out with water spots and may not dry properly. This can affect the overall cleaning performance."
+      },
+      {
+        "question": "Is it normal for my dishwasher to run long?",
+        "answer": "Yes, it is normal for energy-efficient dishwashers to run longer. They pause for soaking and cleaning to save water and energy while providing a better clean."
+      },
+      {
+        "question": "Why does my dishwasher have an optical water sensor?",
+        "answer": "The optical water sensor helps the dishwasher determine the right amount of water and energy needed for optimal cleaning, adjusting the cycle length accordingly."
+      },
+      {
+        "question": "How do I know if I need to clean the filters?",
+        "answer": "Check your dishes. If they are not coming out clean, it may be a sign that the filters need cleaning. It’s good practice to clean them at least once a month."
+      },
+      {
+        "question": "What kind of cycles does the dishwasher have?",
+        "answer": "Your dishwasher has different wash cycles. You can choose based on how dirty your dishes are, like a light wash for lightly soiled dishes or a longer cycle for heavy dirt."
+      },
+      {
+        "question": "How can I prevent hard water spots on my dishes?",
+        "answer": "To prevent hard water spots, always use rinse aid, which helps water to roll off dishes instead of leaving spots as it dries."
+      },
+      {
+        "question": "How do I load tall objects like pots and pans?",
+        "answer": "Load tall items like pots and pans in the lower rack of the dishwasher. Make sure they do not block the spray arms to ensure they get properly cleaned."
+      },
+      {
+        "question": "Can I use regular dish soap in the dishwasher?",
+        "answer": "No, you should not use regular dish soap in the dishwasher. It will create too many bubbles and can damage the appliance."
+      },
+      {
+        "question": "What should I do if the dishwasher smells bad?",
+        "answer": "Check for leftover food stuck in the filters or at the bottom of the dishwasher. Cleaning the filters and running a cycle with vinegar can help remove odors."
+      },
+      {
+        "question": "How do I fix a leaking dishwasher?",
+        "answer": "Check the door seal for any cracks or dirt. Make sure the dishwasher is level too, as an uneven position can cause leaks. If the problem continues, contact a professional."
+      },
+      {
+        "question": "Does the dishwasher use a lot of water?",
+        "answer": "No, your dishwasher is designed to be water-efficient. It uses less water than washing dishes by hand."
+      },
+      {
+        "question": "How do I unload the dishwasher?",
+        "answer": "Unload the dishwasher starting with the bottom rack first to prevent water from dripping onto the clean dishes in the upper rack."
+      },
+      {
+        "question": "How often should I run the dishwasher?",
+        "answer": "You can run the dishwasher every day if you have enough dirty dishes. Just ensure you are loading it properly to maintain cleaning performance."
+      },
+      {
+        "question": "What should I do if I hear unusual noises from the dishwasher?",
+        "answer": "Check if any dishes are touching the spray arms or if something is stuck in the filter. If noises continue, it may be best to get it checked by a technician."
+      },
+      {
+        "question": "Can I run the dishwasher overnight?",
+        "answer": "Yes, you can run the dishwasher overnight. Many users choose to do this to take advantage of lower energy rates while they sleep."
+      },
+      {
+        "question": "How do I load the dishwasher correctly?",
+        "answer": "Place larger items, like plates and pots, on the bottom rack. Put smaller items, like cups and glasses, on the top rack. Make sure everything is facing down or inward to catch the water."
+      },
+      {
+        "question": "What can I put in the dishwasher?",
+        "answer": "You can wash most plates, bowls, silverware, and glasses. Check if items are labeled as dishwasher safe. Avoid washing wooden items or anything that can warp."
+      },
+      {
+        "question": "Where do I put the detergent?",
+        "answer": "Put the detergent in the dispenser, which is usually on the inside of the door. Make sure to close the lid tightly."
+      },
+      {
+        "question": "How do I add rinse aid?",
+        "answer": "Look for the rinse aid dispenser, usually near the detergent section. Open it and pour in the rinse aid until it's full, then close it."
+      },
+      {
+        "question": "Why are my dishes still dirty after a wash?",
+        "answer": "Check that you loaded the dishwasher properly. Ensure the spray arms can move freely and are not blocked by any items."
+      },
+      {
+        "question": "What does the overfill protection float do?",
+        "answer": "The overfill protection float prevents too much water from filling the dishwasher. It helps keep the water level just right."
+      },
+      {
+        "question": "How can I avoid spots on my dishes?",
+        "answer": "Use rinse aid. It helps reduce water spots and helps dishes dry better."
+      },
+      {
+        "question": "What should I do if the dishwasher is making a loud noise?",
+        "answer": "It could be that something is loose or not in place. Check if any utensils or dishes are touching the spray arms."
+      },
+      {
+        "question": "How often should I clean my dishwasher?",
+        "answer": "It’s good to clean the dishwasher every month. Wipe down the inside and check for food buildup in the filter."
+      },
+      {
+        "question": "Can I run the dishwasher at a low temperature?",
+        "answer": "Check the settings. Some dishwashers have options for eco or energy-saving washes, but these might take longer."
+      },
+      {
+        "question": "What's the best way to dry my dishes?",
+        "answer": "Using rinse aid will help. You can also let the dishwasher finish its cycle and then leave the door slightly open to let air in."
+      },
+      {
+        "question": "What if the water isn’t draining?",
+        "answer": "Make sure the drain is not blocked. Check to see if there are any food particles clogging the filter or drain."
+      },
+      {
+        "question": "How do I know when to refill the rinse aid?",
+        "answer": "There’s usually a window on the rinse aid dispenser. When you can’t see any liquid, it’s time to refill it."
+      },
+      {
+        "question": "Is it okay to stack silverware in the basket?",
+        "answer": "Yes, but it should not touch each other. Place forks, knives, and spoons facing down to prevent them from nesting."
+      },
+      {
+        "question": "What should I do if my dishes smell bad after washing?",
+        "answer": "Check for food debris stuck in the filter. Clean the filter and run a rinse cycle with vinegar to freshen it up."
+      },
+      {
+        "question": "How do I prevent plastic items from melting?",
+        "answer": "Place plastic items on the top rack. The heating element is usually at the bottom, so they are safer up high."
+      },
+      {
+        "question": "What do I do if my dishwasher doesn’t start?",
+        "answer": "Check if it's plugged in and the door is closed tightly. Make sure the cycle settings are selected correctly."
+      },
+      {
+        "question": "Can I wash pots and pans in the dishwasher?",
+        "answer": "Yes, but make sure they are dishwasher safe. Place them on the bottom rack for better cleaning."
+      },
+      {
+        "question": "How can I help my dishwasher work better?",
+        "answer": "Rinse off large food pieces before loading. Don’t overload it and ensure water can flow freely to all items."
+      },
+      {
+        "question": "What type of detergent should I use?",
+        "answer": "Use dishwasher-specific detergent. It's made for cleaning dishes and works better than regular soap."
+      },
+      {
+        "question": "What features does the upper level wash have?",
+        "answer": "The upper level wash has a spray arm that helps clean dishes on the top rack. It also includes cup shelves on some models."
+      },
+      {
+        "question": "How do I adjust the tines in the dishwasher?",
+        "answer": "Some dishwashers have EZ Adjust tines that can change position. Look for the adjustment mechanism and move them if needed."
+      },
+      {
+        "question": "How do I load the dishwasher?",
+        "answer": "Start by placing dirty dishes in the dishwasher. Make sure to spin the spray arms to see if they turn freely. This helps them clean properly."
+      },
+      {
+        "question": "What should I do after loading my dishwasher?",
+        "answer": "After loading, add dishwasher detergent and rinse aid to their respective compartments."
+      },
+      {
+        "question": "How do I choose a washing cycle?",
+        "answer": "Select a cycle based on how dirty your dishes are. You might have options like Sensor, Heavy, Normal, 1-Hr Wash, or Soak & Clean."
+      },
+      {
+        "question": "What are some options I can choose for washing?",
+        "answer": "You can choose options like Heat Dry, High Temp, Sani Rinse, or set a 4-Hr Delay, if your model has them."
+      },
+      {
+        "question": "How do I start the dishwasher?",
+        "answer": "Select your cycle and any options you want. Then press START/RESUME if your controls are on the top. After that, close the door firmly."
+      },
+      {
+        "question": "What if I need to cancel a cycle?",
+        "answer": "Press the Cancel button to stop the current cycle if needed."
+      },
+      {
+        "question": "Can I pause the dishwasher during a cycle?",
+        "answer": "To pause the wash, simply press the Resume button. This can help you check on your dishes."
+      },
+      {
+        "question": "How do I know when the cycle is done?",
+        "answer": "The dishwasher will make a sound or the lights will change when the cycle is finished."
+      },
+      {
+        "question": "What do I do after the cycle ends?",
+        "answer": "Once the cycle is done, open the door and unload the clean dishes. It's also a good time to clean the filter."
+      },
+      {
+        "question": "Where is the filter located?",
+        "answer": "The filter is usually found at the bottom of the dishwasher. Check your manual for its exact location."
+      },
+      {
+        "question": "How often should I clean the filter?",
+        "answer": "Check the “Filtration System” section in your manual for the recommended cleaning schedule for the filter."
+      },
+      {
+        "question": "What if the dishwasher does not start?",
+        "answer": "Ensure the door is closed tightly and that you've pressed START/RESUME. Also, check if it's plugged in."
+      },
+      {
+        "question": "What can I do if my dishes are still dirty after a wash?",
+        "answer": "Make sure you loaded the dishes properly and added enough detergent. You might want to try a heavier cycle next time."
+      },
+      {
+        "question": "Can I run the dishwasher with just a few dishes?",
+        "answer": "It's fine to run it with a few dishes, but make sure they are loaded properly for the best cleaning results."
+      },
+      {
+        "question": "Should I rinse my dishes before putting them in?",
+        "answer": "You don't need to rinse them completely, but removing large food scraps can help."
+      },
+      {
+        "question": "How do I add rinse aid?",
+        "answer": "Find the rinse aid compartment, open it, and pour in the rinse aid until it's full without overflowing."
+      },
+      {
+        "question": "Why do I need rinse aid?",
+        "answer": "Rinse aid helps dishes dry better and prevents water spots."
+      },
+      {
+        "question": "What is the Heat Dry option for?",
+        "answer": "The Heat Dry option helps to dry your dishes faster using heat."
+      },
+      {
+        "question": "What if the spray arms are stuck?",
+        "answer": "Check for any dishes that might be blocking the spray arms from turning. Adjust them if needed."
+      },
+      {
+        "question": "How can I ensure my dishwasher smells fresh?",
+        "answer": "Regularly clean the filter and run a wash cycle with a cup of vinegar in a container placed on the top rack."
+      },
+      {
+        "question": "Can I use any detergent in the dishwasher?",
+        "answer": "It's best to use dishwasher detergent made specifically for dishwashers for the best results."
+      },
+      {
+        "question": "How do I prepare my dishes before loading them into the dishwasher?",
+        "answer": "Remove leftover food, bones, toothpicks, and any hard items from the dishes. Also, take off labels from containers."
+      },
+      {
+        "question": "What is important to check before I close the dishwasher door?",
+        "answer": "Make sure nothing is blocking the spray arm(s) so it can spin freely and that the detergent dispenser is not blocked."
+      },
+      {
+        "question": "How should I load my dishes into the dishwasher?",
+        "answer": "Load dishes with soiled surfaces facing down and inward toward the spray. Avoid overlapping items to ensure better cleaning."
+      },
+      {
+        "question": "Where should I place plastics, small plates, and glasses?",
+        "answer": "Place plastics, small plates, and glasses in the upper rack for best results."
+      },
+      {
+        "question": "Can I wash any type of dish in the dishwasher?",
+        "answer": "Only wash items that are marked 'dishwasher safe.'"
+      },
+      {
+        "question": "What should I do to stop thumping noises while the dishwasher is running?",
+        "answer": "Load dishes so they do not touch one another and secure lightweight items in the racks."
+      },
+      {
+        "question": "How should I load silverware into the dishwasher?",
+        "answer": "Always place sharp items pointing down and avoid nesting. Mix silverware types to keep them separated."
+      },
+      {
+        "question": "How do I add detergent to the dishwasher?",
+        "answer": "Add automatic dishwasher detergent just before starting a cycle. You can use powder, liquid, or tablet detergent."
+      },
+      {
+        "question": "What type of dishwasher detergent should I use?",
+        "answer": "Use only automatic dishwasher detergent. Tablet detergent is recommended for best results."
+      },
+      {
+        "question": "What factors affect how much detergent I should use?",
+        "answer": "The amount of detergent depends on how soiled the dishes are and the hardness of your water."
+      },
+      {
+        "question": "How do I know if my water is hard or soft?",
+        "answer": "If your water has 0-6 grains per gallon, it’s hard. If it has 7-12 grains per gallon, it’s soft."
+      },
+      {
+        "question": "How do I fill the detergent dispenser?",
+        "answer": "Fill the Main Wash section based on your water hardness. For heavily soiled items, fill the Pre-Wash section to the recommended level."
+      },
+      {
+        "question": "Do I need to use rinse aid in my dishwasher?",
+        "answer": "Yes, rinse aid helps with drying and prevents water spots on your dishes."
+      },
+      {
+        "question": "How do I check the rinse aid level?",
+        "answer": "Look at the rinse aid indicator. Add rinse aid when it shows 'Add' level."
+      },
+      {
+        "question": "How do I add rinse aid to the dishwasher?",
+        "answer": "Turn the dispenser cap ¼ turn counterclockwise, lift it off, and pour rinse aid until the level is 'Full.' Replace and lock the cap."
+      },
+      {
+        "question": "What happens if I forget to add rinse aid?",
+        "answer": "Without rinse aid, your dishes may have spots or streaks, and the drying may not work well."
+      },
+      {
+        "question": "Can I run a rinse cycle without detergent?",
+        "answer": "Yes, if you do not plan to run a wash cycle soon, run a rinse cycle without detergent."
+      },
+      {
+        "question": "What should I do if my dishes are still dirty after a cycle?",
+        "answer": "Check if you used enough detergent and if the dishes were loaded properly, with soiled sides facing down."
+      },
+      {
+        "question": "How can I prevent rust on my dishwasher?",
+        "answer": "Avoid washing metal items that can rust if they are not dishwasher safe. Regularly check and remove any rust if it appears."
+      },
+      {
+        "question": "What do I do if the door won't close?",
+        "answer": "Make sure there are no dishes blocking the door and everything is loaded properly."
+      },
+      {
+        "question": "Is it safe to wash glass dishes in the dishwasher?",
+        "answer": "You can wash glass dishes if they are marked 'dishwasher safe.' Use caution with very delicate glass."
+      },
+      {
+        "question": "How do I check the water hardness level?",
+        "answer": "You can check the water hardness level using test strips available at home improvement stores. Follow the instructions on the package to see if you have hard water."
+      },
+      {
+        "question": "Why do I see spots on my dishes after washing?",
+        "answer": "Spots on dishes are often caused by hard water. Adjust the rinse aid setting or the factory water hardness setting to help reduce spots."
+      },
+      {
+        "question": "How do I adjust the rinse aid setting?",
+        "answer": "Look for the arrow adjuster inside the rinse aid dispenser. Use your fingers or a flat-blade screwdriver to turn the adjuster until it points to the desired level."
+      },
+      {
+        "question": "What cleaning cycles can I choose from?",
+        "answer": "You can choose from different cycles like Sensor, Heavy, Normal, 1-Hr, Soak, and Clean. Pick one based on how dirty your dishes are."
+      },
+      {
+        "question": "What options can I add to my cycle?",
+        "answer": "You can add options like Heat Dry, High Temp, Sani Rinse, and 4-Hr Delay. These options can change how well your dishes come out."
+      },
+      {
+        "question": "How do I start the dishwasher?",
+        "answer": "To start, run hot water at the sink until it’s warm. Turn the water off, select your cycle and options, then press START/RESUME before you close the door."
+      },
+      {
+        "question": "What temperature should the water be when it enters the dishwasher?",
+        "answer": "The water should be about 120°F (49°C) when it enters the dishwasher for the best cleaning results."
+      },
+      {
+        "question": "Can I open the door and add dishes while it's running?",
+        "answer": "You can add dishes at the beginning of the cycle. Open the door slowly, add the items, close the door firmly, and press START/RESUME."
+      },
+      {
+        "question": "What should I do if I want to cancel the cycle?",
+        "answer": "To cancel a cycle, press the Cancel button. This will stop the washing process."
+      },
+      {
+        "question": "How do I know if the dishwasher is done washing?",
+        "answer": "The dishwasher will stop running and make a sound or the lights will indicate that the cycle is complete. Check your model for specific signals."
+      },
+      {
+        "question": "What if the dishwasher doesn't start?",
+        "answer": "If it doesn't start, check if the door is closed completely, ensure you have selected a cycle, and check for any error lights."
+      },
+      {
+        "question": "Do I need to clean the filter in the dishwasher?",
+        "answer": "Yes, it’s a good idea to clean the filter regularly to keep the dishwasher running well. Refer to your manual for instructions on how to remove and clean it."
+      },
+      {
+        "question": "How often should I run the dishwasher?",
+        "answer": "You can run the dishwasher as often as you need. It's best to run it when it’s full for efficiency."
+      },
+      {
+        "question": "What if my dishes still come out dirty?",
+        "answer": "If your dishes are still dirty, check the spray arms for clogs, ensure you’re using enough detergent, and check the water temperature."
+      },
+      {
+        "question": "How much detergent should I use?",
+        "answer": "Use the amount recommended on the detergent packaging. It’s usually about one tablespoon for a normal wash."
+      },
+      {
+        "question": "Is it safe to wash all types of dishes?",
+        "answer": "Not all dishes are dishwasher safe. Avoid washing wooden items, certain plastics, and anything with metal that may rust."
+      },
+      {
+        "question": "What can trigger a need for maintenance?",
+        "answer": "Signs can include bad smells, leftover food on dishes, leaks, or unusual noises when the dishwasher is running."
+      },
+      {
+        "question": "How can I avoid bad smells in my dishwasher?",
+        "answer": "To prevent bad smells, clean the filter regularly and run a hot water cycle with vinegar or a dishwasher cleaner every month."
+      },
+      {
+        "question": "Can I wash pots and pans in the dishwasher?",
+        "answer": "Most pots and pans can be washed, but check the manufacturer's guidelines to see if they're dishwasher safe."
+      },
+      {
+        "question": "What should I do if the door seems stuck?",
+        "answer": "If the door is stuck, check for any dishes or items blocking it. If not, ensure the latch is functioning properly."
+      },
+      {
+        "question": "How do I make my dishwasher quieter?",
+        "answer": "To reduce noise, make sure everything is loaded correctly and not touching each other. Regular maintenance can also help keep it quiet."
+      },
+      {
+        "question": "What does the Sani Rinse option do?",
+        "answer": "The Sani Rinse option heats the final rinse water to help kill bacteria and ensure your dishes are extra clean."
+      },
+      {
+        "question": "How do I start my dishwasher?",
+        "answer": "Load your dishes into the dishwasher, then select your desired wash cycle and press the start button to begin."
+      },
+      {
+        "question": "Can I change the washing cycle after I start it?",
+        "answer": "You can change the washing cycle if you do it before the selected option begins. Just press a different cycle."
+      },
+      {
+        "question": "What if I forgot to add detergent?",
+        "answer": "If you forgot to add detergent, stop the dishwasher, add it, and then restart the cycle."
+      },
+      {
+        "question": "How do I know which wash cycle to choose?",
+        "answer": "Choose a cycle based on how dirty your dishes are. Use 'Heavy' for very dirty dishes, 'Normal' for everyday use, and '1-Hour Wash' for quickly cleaning lightly soiled items."
+      },
+      {
+        "question": "Why does my dishwasher make noises?",
+        "answer": "Some noises are normal as the dishwasher washes, pauses, and sprays water. This helps clean your dishes better."
+      },
+      {
+        "question": "What does the 'High Temp' option do?",
+        "answer": "'High Temp' raises the wash water temperature to help clean tough stains better."
+      },
+      {
+        "question": "How long does a normal wash cycle take?",
+        "answer": "A normal wash cycle takes about 2 hours and 32 minutes."
+      },
+      {
+        "question": "Can I stop the dishwasher while it's running?",
+        "answer": "You can stop the dishwasher, but you should wait for it to pause completely before opening the door."
+      },
+      {
+        "question": "What should I do if the door won't close?",
+        "answer": "Make sure there are no dishes blocking the door and that the latch is properly aligned. Try closing it again."
+      },
+      {
+        "question": "How do I know when a cycle is done?",
+        "answer": "The dishwasher will beep or light indicators will show when the wash cycle is complete."
+      },
+      {
+        "question": "What is the 'Sani Rinse' option?",
+        "answer": "'Sani Rinse' raises the temperature of the final rinse water to kill more germs."
+      },
+      {
+        "question": "Will the dishwasher adjust the wash time?",
+        "answer": "Yes, the dishwasher can adjust the wash time based on how dirty the dishes are and the incoming water temperature."
+      },
+      {
+        "question": "How much water does the dishwasher use?",
+        "answer": "Water usage varies by cycle type. It can be between 2.4 to 7.4 gallons of water per cycle."
+      },
+      {
+        "question": "Can I wash plastic dishes in the dishwasher?",
+        "answer": "Yes, but make sure they are labeled as dishwasher safe to avoid damage."
+      },
+      {
+        "question": "What is the best way to load dishes?",
+        "answer": "Load larger items on the bottom rack and smaller items on the top rack. Make sure nothing blocks the spray arms."
+      },
+      {
+        "question": "How do I clean the dishwasher filter?",
+        "answer": "Remove the filter and rinse it under warm water. Scrub gently if needed and replace it after it dries."
+      },
+      {
+        "question": "What should I do if my dishwasher smells bad?",
+        "answer": "Check for food debris in the filter and the bottom of the dishwasher. Clean it out to reduce odors."
+      },
+      {
+        "question": "Can I use regular dish soap in the dishwasher?",
+        "answer": "No, use only dishwasher detergent made for dishwashers to prevent too many suds."
+      },
+      {
+        "question": "How often should I run the dishwasher?",
+        "answer": "Run the dishwasher whenever you have a full load of dirty dishes to save water and energy."
+      },
+      {
+        "question": "What if there are spots on my glasses after washing?",
+        "answer": "Spots may happen if hard water is present. Consider using a rinse aid to help reduce spots."
+      },
+      {
+        "question": "Is it safe to leave the dishwasher running unattended?",
+        "answer": "Yes, it is generally safe, but make sure the dishwasher is not damaged or leaking before leaving."
+      },
+      {
+        "question": "How can I make my dishwasher last longer?",
+        "answer": "Regularly clean the filter, check for clogs, and use your dishwasher according to the manual to keep it in good shape."
+      },
+      {
+        "question": "How do I start the dishwasher?",
+        "answer": "Press the Start/Resume button to begin the wash cycle after selecting your desired options."
+      },
+      {
+        "question": "What should I do if I opened the door during the wash cycle?",
+        "answer": "Close the door, then press the Start/Resume button again to continue the cycle."
+      },
+      {
+        "question": "How can I cancel a wash cycle?",
+        "answer": "Press the Cancel Drain button, then make sure the door is closed. The dishwasher will drain for 2 minutes to cancel the cycle."
+      },
+      {
+        "question": "What does the Clean light mean?",
+        "answer": "The Clean light stays on when the wash cycle has finished successfully."
+      },
+      {
+        "question": "How does the Heat Dry option work?",
+        "answer": "The Heat Dry option uses a heating element to help dry your dishes faster during the wash cycle."
+      },
+      {
+        "question": "Can I set a delay for starting the dishwasher?",
+        "answer": "Yes, press the 4-Hr Delay button to set a 4-hour delay before the wash cycle starts."
+      },
+      {
+        "question": "What happens if I don’t press Start/Resume after opening the door?",
+        "answer": "The cycle will not continue until you close the door and press the Start/Resume button."
+      },
+      {
+        "question": "How do I activate the Control Lock feature?",
+        "answer": "Press and hold the 4-Hr Delay button for 3 seconds to activate the Control Lock and disable all buttons."
+      },
+      {
+        "question": "How do I turn off the Control Lock?",
+        "answer": "Press and hold the 4-Hr Delay button for 3 seconds again to turn off the Control Lock."
+      },
+      {
+        "question": "What if I need to add a dish during the wash cycle?",
+        "answer": "Open the door to add a dish, then close it. You will need to press the Start/Resume button to continue the cycle."
+      },
+      {
+        "question": "How can I tell if my dishes are sanitized?",
+        "answer": "The Sanitized indicator light will glow when the dishes have been sanitized properly."
+      },
+      {
+        "question": "What does the Cancel function do?",
+        "answer": "The Cancel function stops the current wash cycle and starts the draining process."
+      },
+      {
+        "question": "Can I use Heat Dry with any wash cycle?",
+        "answer": "The Heat Dry option can be used with most cycles, except for the 1-Hour Wash."
+      },
+      {
+        "question": "What should I do if the dishwasher won't start?",
+        "answer": "Check if you have closed the door properly, and make sure to press the Start/Resume button after that."
+      },
+      {
+        "question": "How do I know if the wash cycle is still running?",
+        "answer": "The Start/Resume button LED will be lit when the cycle is in progress."
+      },
+      {
+        "question": "Is there a certain amount of time for the Heat Dry option?",
+        "answer": "Heat Dry can add between 8 to 46 minutes to the wash cycle, depending on the cycle selected."
+      },
+      {
+        "question": "What if the Control Lock is activated and I need to use the dishwasher?",
+        "answer": "You will need to hold the 4-Hr Delay button for 3 seconds to deactivate the Control Lock."
+      },
+      {
+        "question": "How do I reset the delay time?",
+        "answer": "Press the Delay button until the desired delay time is displayed to reset it."
+      },
+      {
+        "question": "Can I delay the wash cycle for less than 4 hours?",
+        "answer": "You cannot set a delay shorter than 4 hours with the 4-Hr Delay option."
+      },
+      {
+        "question": "What do I do if the Clean indicator doesn't turn on after a cycle?",
+        "answer": "Check to make sure the cycle was completed, and the door was closed properly during the wash."
+      },
+      {
+        "question": "What if my dishes are still dirty after a wash?",
+        "answer": "Make sure to load the dishwasher properly and use the appropriate wash cycle for your load."
+      },
+      {
+        "question": "How should I care for the inside of the dishwasher?",
+        "answer": "Regularly wipe down the interior with a damp cloth and avoid using harsh chemicals."
+      },
+      {
+        "question": "How can I clean the filter in the dishwasher?",
+        "answer": "Check your manual for the location of the filter, then remove it and rinse it under running water to clean."
+      },
+      {
+        "question": "How do I set up my dishwasher?",
+        "answer": "Place your dishwasher on a flat, even surface near a water supply. Connect the water hose and plug in the power cord. Make sure the dishwasher is leveled."
+      },
+      {
+        "question": "How do I load the silverware basket?",
+        "answer": "You can load the silverware basket by placing forks, knives, and spoons inside it. Ensure the front panel is locked before using the bottom rack."
+      },
+      {
+        "question": "How do I unlock the silverware basket?",
+        "answer": "To unlock, grasp the front panel, pull it up, and turn it 90 degrees. Make sure it’s fully in place before pulling the bottom rack out."
+      },
+      {
+        "question": "How can I remove the silverware basket from the door?",
+        "answer": "To remove it, grasp the basket by the handle, slide it toward the top of the door, and lift it off the holding buttons."
+      },
+      {
+        "question": "How do I put the silverware basket back in the door?",
+        "answer": "Set the silverware basket on the holding buttons and slide it toward the bottom of the door until it clicks into place."
+      },
+      {
+        "question": "What are the cup shelves for?",
+        "answer": "Cup shelves can hold extra cups, stemware, or long items like spatulas. You can fold them down to create more space in the top rack."
+      },
+      {
+        "question": "How do I adjust the fold-down tines?",
+        "answer": "To adjust the tines, grasp the tip of the tine and push it out of the holder. Then, lay the tines down toward the center of the rack."
+      },
+      {
+        "question": "What are light item clips used for?",
+        "answer": "Light item clips hold lightweight plastic items in place, like cups and bowls, during washing to prevent them from moving around."
+      },
+      {
+        "question": "How do I move a light item clip?",
+        "answer": "To move a clip, pull it up off the tine and reposition it on another tine where you need it."
+      },
+      {
+        "question": "What are EZ Adjust Tines?",
+        "answer": "EZ Adjust Tines are sliding tines on the lower rack that can move left or right. They help fit larger dishes, like cereal bowls."
+      },
+      {
+        "question": "How does the silverware spray work?",
+        "answer": "The silverware spray provides a strong shower of water to the in-door basket, helping to clean stuck-on food without needing to rewash."
+      },
+      {
+        "question": "How do I turn on the dishwasher?",
+        "answer": "To turn on the dishwasher, close the door securely. Then, select your wash cycle and press the start button."
+      },
+      {
+        "question": "Should I rinse my dishes before putting them in the dishwasher?",
+        "answer": "Rinsing is not necessary but scraping off large food particles helps ensure better washing."
+      },
+      {
+        "question": "What's the best way to load the bottom rack?",
+        "answer": "Load larger items like pots and pans in the bottom rack. Place them facing down for the best cleaning."
+      },
+      {
+        "question": "Can I wash plastic dishes in the dishwasher?",
+        "answer": "Yes, you can wash plastic dishes, but place them on the top rack to avoid melting."
+      },
+      {
+        "question": "How do I clean the filters in the dishwasher?",
+        "answer": "Remove the bottom rack, locate the filters, and rinse them under running water to remove any debris."
+      },
+      {
+        "question": "What should I do if my dishwasher is not starting?",
+        "answer": "Check if the door is completely closed and latched. Ensure it is plugged in and there’s power to the outlet."
+      },
+      {
+        "question": "How do I know when my dishwasher cycle is done?",
+        "answer": "Most dishwashers have a light or an indicator that will turn off when the cycle is complete. Listen for a sound if your model has one."
+      },
+      {
+        "question": "Can I use regular dish soap in my dishwasher?",
+        "answer": "No, use only dishwasher detergent. Regular dish soap can create too many bubbles and cause a mess."
+      },
+      {
+        "question": "How often should I clean my dishwasher?",
+        "answer": "Clean the interior and filters monthly. This helps it run more efficiently and extends its life."
+      },
+      {
+        "question": "What if my dishes are coming out dirty?",
+        "answer": "Make sure you’re loading them correctly, not overcrowding, and that you’re using enough detergent."
+      },
+      {
+        "question": "Is it safe to run the dishwasher when I'm not home?",
+        "answer": "Yes, it is safe to run the dishwasher when you’re away, but always ensure it's connected properly."
+      },
+      {
+        "question": "How do I raise the top rack?",
+        "answer": "Hold the top rack with one hand near the adjuster. With your other hand, pull out the top of the adjuster and raise it to one of the preset positions."
+      },
+      {
+        "question": "How do I lower the top rack?",
+        "answer": "Lift up on the top rack and then let it down to lower it."
+      },
+      {
+        "question": "Can I fit tall items in the dishwasher?",
+        "answer": "You can fit tall items by raising the top rack to a higher position."
+      },
+      {
+        "question": "What if the top rack is not level?",
+        "answer": "Make sure to adjust the rack so it is level for proper use."
+      },
+      {
+        "question": "How do I remove the top rack?",
+        "answer": "Pull the upper rack forward about halfway. Open the track stops by flipping them toward the outside, then pull the top rack out of the rails."
+      },
+      {
+        "question": "What should I do before removing the top rack?",
+        "answer": "Remove any dishes from the top rack before you take it out of the dishwasher."
+      },
+      {
+        "question": "How can I wash larger items?",
+        "answer": "You can wash larger items by removing the top rack and using the bottom rack."
+      },
+      {
+        "question": "How do I replace the top rack after removing it?",
+        "answer": "Gently pull the tracks forward, open the track stops, place the back wheels of the rack into the track slot, and then slide the rack back into the tracks."
+      },
+      {
+        "question": "What happens if I push the top rack all the way in while replacing it?",
+        "answer": "Don’t push the rack all the way in yet; just secure the back wheels first and then insert the front wheels."
+      },
+      {
+        "question": "How do I make sure the track stops close after putting the top rack in?",
+        "answer": "The track stops will automatically close when you push the rack into the dishwasher."
+      },
+      {
+        "question": "Is it okay to wash cookie sheets in the dishwasher?",
+        "answer": "You can wash cookie sheets by removing the top rack first."
+      },
+      {
+        "question": "What kind of items can I wash in the top rack?",
+        "answer": "You can wash smaller items like cups and bowls in the top rack."
+      },
+      {
+        "question": "How do I know if the top rack is safe to adjust?",
+        "answer": "Make sure the top rack is empty and the dishes are removed before adjusting it."
+      },
+      {
+        "question": "What should I do if I can't lift the top rack?",
+        "answer": "Check if the adjuster mechanism is stuck or blocked by dishes. Make sure the rack is not overloaded."
+      },
+      {
+        "question": "Can I wash pots in the dishwasher?",
+        "answer": "Pots are best washed in the bottom rack when you remove the top rack."
+      },
+      {
+        "question": "How do I keep the top rack in place after adjusting?",
+        "answer": "Once you adjust the top rack, it should stay in place. Ensure it is pushed in securely after usage."
+      },
+      {
+        "question": "What do I do if the top rack won’t adjust?",
+        "answer": "Ensure there's nothing blocking the adjusters. If it’s still stuck, check the manual for troubleshooting steps."
+      },
+      {
+        "question": "Can I wash large items if the top rack is still in place?",
+        "answer": "No, larger items should be washed in the bottom rack after removing the top rack."
+      },
+      {
+        "question": "How can I clean the dishwasher itself?",
+        "answer": "Remove any leftover food particles and wipe the interior with a damp cloth."
+      },
+      {
+        "question": "Is it safe to put fragile items on the top rack?",
+        "answer": "Yes, the top rack is designed for lighter and more fragile items."
+      },
+      {
+        "question": "What if dishes are still dirty after a wash cycle?",
+        "answer": "Check the spray arms to ensure they can move freely and are not blocked."
+      },
+      {
+        "question": "How should I load the bottom rack?",
+        "answer": "Place larger items like pots and pans in the bottom rack for a thorough clean."
+      },
+      {
+        "question": "How do I clean the dishwasher filters?",
+        "answer": "To clean the filters, first turn the Upper Filter Assembly ¼ turn counterclockwise and lift it out. Then, separate the Upper Filter Assembly by gently pulling it apart. Rinse the filters under running water until most soils are removed."
+      },
+      {
+        "question": "When should I clean the filters?",
+        "answer": "Clean the filters when you see visible dirt or if your dishes feel gritty. If cleaning performance drops and soils remain on dishes, it's time to clean the filters."
+      },
+      {
+        "question": "How often should I clean the filters?",
+        "answer": "The cleaning frequency depends on how many loads you do. If you do 8-12 loads a week and only scrape before loading, clean every two months. If you do just 1-3 loads a week, clean twice a year."
+      },
+      {
+        "question": "What if I have very hard water?",
+        "answer": "If your water is very hard (above 15 grains), clean your filter at least once a month. Look out for white residue inside the dishwasher as it may indicate hard water."
+      },
+      {
+        "question": "What do I do if the dishwasher isn't cleaning well?",
+        "answer": "If your dishwasher isn't cleaning well, check the filters. They may need to be cleaned if you see dirt or if your dishes are still dirty after a wash."
+      },
+      {
+        "question": "What tools do I need to clean the filters?",
+        "answer": "You only need running water to rinse the filters. If there are hard-to-remove soils, a soft brush might be needed, but do not use wire brushes or scouring pads."
+      },
+      {
+        "question": "Can I wash the filters in the dishwasher?",
+        "answer": "It is best to rinse the filters under running water. Washing them in the dishwasher may not clean them properly."
+      },
+      {
+        "question": "What happens if I don’t clean the filters?",
+        "answer": "Not cleaning the filters can lead to poor cleaning performance and dirty dishes. It can also cause foreign objects to enter the pump."
+      },
+      {
+        "question": "How do I know if I need to clean the lower filter?",
+        "answer": "You should clean the lower filter if you notice dirt or food particles on your dishes or if cleaning performance decreases."
+      },
+      {
+        "question": "Is it hard to remove the filters?",
+        "answer": "No, it's easy to remove and maintain the filters. Just follow the instructions for turning and lifting them out."
+      },
+      {
+        "question": "How do I check for hard water buildup?",
+        "answer": "Look for white residue inside your dishwasher. This indicates hard water, and you may need to clean the filters more often."
+      },
+      {
+        "question": "Can I use soap to clean the filters?",
+        "answer": "It's better to just rinse the filters under running water without soap. Soap can leave a residue that might affect cleaning."
+      },
+      {
+        "question": "What type of brush should I use for tough spots?",
+        "answer": "Use a soft brush to remove any tough soils or calcium deposits. Avoid any hard brushes that can scratch the filters."
+      },
+      {
+        "question": "How can I improve my dishwasher's cleaning power?",
+        "answer": "To improve cleaning power, make sure to clean the filters regularly and scrape off food before loading dishes. This helps the dishwasher work better."
+      },
+      {
+        "question": "Is it okay to run the dishwasher if the filters are dirty?",
+        "answer": "Running the dishwasher with dirty filters can lead to poor cleaning results and may damage the appliance. Always clean them for best results."
+      },
+      {
+        "question": "How do I assemble the Upper Filter Assembly after cleaning?",
+        "answer": "After cleaning, just align the Upper Filter Assembly and gently push it back together before placing it back in the dishwasher."
+      },
+      {
+        "question": "Can I use a scouring pad to clean the filters?",
+        "answer": "No, do not use scouring pads or wire brushes. These can damage the filters and reduce their effectiveness."
+      },
+      {
+        "question": "What if my dishes still have spots after washing?",
+        "answer": "If your dishes are spotting after washing, check your filters for clogs. It may also be a sign of hard water, which requires more frequent filter cleaning."
+      },
+      {
+        "question": "How do I store the filters if I remove them for cleaning?",
+        "answer": "Store the filters in a clean, dry place until you are ready to reassemble them. Avoid leaving them exposed to dust or moisture."
+      },
+      {
+        "question": "What should I do if food is stuck on the filters?",
+        "answer": "If food is stuck, rinse the filters longer under running water and use a soft brush to gently scrub the stuck areas."
+      },
+      {
+        "question": "Do I need any special products for filter cleaning?",
+        "answer": "No special products are needed. Simply rinsing under water is usually enough to clean the filters effectively."
+      },
+      {
+        "question": "How do I put the filters back in my dishwasher?",
+        "answer": "Place the Lower Filter under the tabs at the bottom of the dishwasher. Then, insert the Upper Filter Assembly into the Lower Filter and turn it clockwise until it locks in place."
+      },
+      {
+        "question": "What should I do if the Upper Filter does not seem locked in?",
+        "answer": "If the Upper Filter spins freely, keep turning it clockwise until it drops and locks into place. Make sure it’s secured before running the dishwasher."
+      },
+      {
+        "question": "How do I clean the outside of my dishwasher?",
+        "answer": "Use a soft, damp cloth with mild detergent to clean the exterior. For stainless steel surfaces, use a recommended stainless steel cleaner."
+      },
+      {
+        "question": "What is the best way to clean the inside of my dishwasher?",
+        "answer": "Clean the inside with a paste of powdered dishwasher detergent and water. You can also use liquid detergent on a damp sponge."
+      },
+      {
+        "question": "How can I remove stains or white spots inside my dishwasher?",
+        "answer": "Pour 2 cups of white vinegar into a glass on the bottom rack. Run a complete wash cycle without detergent. This can help remove spots."
+      },
+      {
+        "question": "Is it safe to use vinegar in my dishwasher often?",
+        "answer": "Vinegar can help with stains, but using it too often could damage your dishwasher. Use it occasionally instead of every wash."
+      },
+      {
+        "question": "What is the maintenance procedure for hard water stains?",
+        "answer": "Use a monthly maintenance cleaner like affresh® Dishwasher Cleaner. Load your dishwasher with soiled dishes, place the tablet in the detergent dispenser, and select an appropriate wash cycle."
+      },
+      {
+        "question": "Should I use regular detergent for maintenance cleaning?",
+        "answer": "For maintenance cleaning with products like affresh®, use the cleaning tablet instead of regular detergent."
+      },
+      {
+        "question": "How can I tell if my dishwasher isn’t draining well?",
+        "answer": "If you notice water left at the bottom or if your dishes are wet after a wash, it may not be draining well. Check the drain air gap if you have one."
+      },
+      {
+        "question": "What should I do in summer if I won’t use my dishwasher?",
+        "answer": "Turn off the water and power supply to the dishwasher when you’re not using it for a long time during summer."
+      },
+      {
+        "question": "How do I protect my dishwasher from freezing in winter?",
+        "answer": "Make sure the water supply lines are protected against freezing temperatures. Ice can damage your dishwasher and home."
+      },
+      {
+        "question": "What do I need to do before storing my dishwasher for the winter?",
+        "answer": "Before winter storage, consider having your dishwasher winterized by authorized service personnel to avoid water damage."
+      },
+      {
+        "question": "Can I run my dishwasher if the filters aren’t in place?",
+        "answer": "Do not use your dishwasher without the filters properly installed, or it may get damaged."
+      },
+      {
+        "question": "How should I clean my dishwasher if it smells bad?",
+        "answer": "A vinegar rinse can help remove odors. Just follow the instructions for cleaning the interior with vinegar."
+      },
+      {
+        "question": "What is the best way to clean tough stains in my dishwasher?",
+        "answer": "Using a dishwasher cleaning product like affresh® can help remove tough stains. Follow the product directions for best results."
+      },
+      {
+        "question": "How do I know I am using the right amount of detergent?",
+        "answer": "For regular use, it's best to use a premeasured detergent tablet or pack. This helps ensure you use the right amount."
+      },
+      {
+        "question": "What if my dishes are still dirty after a wash?",
+        "answer": "Make sure the filters are clean and properly installed. Also, check that you are using enough detergent and loading the dishes correctly."
+      },
+      {
+        "question": "Is there anything I shouldn’t clean my dishwasher with?",
+        "answer": "Avoid using harsh chemicals or abrasive cleaners that could scratch or damage the interior and exterior of your dishwasher."
+      },
+      {
+        "question": "How often should I clean my dishwasher?",
+        "answer": "It's a good idea to clean your dishwasher's filters regularly and do a thorough cleaning with vinegar or a dishwasher cleaner at least once a month."
+      },
+      {
+        "question": "Can I leave water in the dishwasher?",
+        "answer": "It's best to not leave standing water in your dishwasher. If you notice water after a cycle, check for drainage issues."
+      },
+      {
+        "question": "Why isn't my dishwasher running?",
+        "answer": "Check if the door is closed tightly and latched. Make sure the right cycle is selected and that there is power to the dishwasher."
+      },
+      {
+        "question": "What should I do if the clean light is flashing?",
+        "answer": "Look for the overfill protection float. It should move freely. Also, make sure the water supply is turned on and check for suds in the dishwasher."
+      },
+      {
+        "question": "How can I fix my dishwasher if it won't fill?",
+        "answer": "Press down on the overfill protection float to make sure it can move up and down freely."
+      },
+      {
+        "question": "Why does my dishwasher run for a long time?",
+        "answer": "Try using the 1 Hour Wash cycle. Check if the water is hot enough and that the cycle time is normal for the selected wash."
+      },
+      {
+        "question": "What should I check if there's water left in the dishwasher?",
+        "answer": "Make sure the cycle is complete and that the disposer knockout plug was removed during installation."
+      },
+      {
+        "question": "Why is there detergent left in the dispenser?",
+        "answer": "Check if the cycle is complete. Look for items blocking the dispenser and make sure the detergent is not clumpy."
+      },
+      {
+        "question": "How do I remove white residue from the dishwasher?",
+        "answer": "Check if you used too much detergent or if the brand you are using creates excess foam. Try a different detergent if needed."
+      },
+      {
+        "question": "What should I do if my dishwasher smells bad?",
+        "answer": "Clean the filters regularly and try running a vinegar rinse. You can also use a dishwasher cleaner once a month."
+      },
+      {
+        "question": "Why is there condensation on my kitchen counter?",
+        "answer": "Check if the dishwasher is aligned with the countertop. Moisture from the dishwasher vent can cause this issue."
+      },
+      {
+        "question": "What can cause my dishwasher to pause during a wash?",
+        "answer": "It's normal for certain cycles to pause briefly. Make sure everything else is working properly if it pauses for too long."
+      },
+      {
+        "question": "How can I tell if the dishwasher is getting power?",
+        "answer": "Check if household fuses are blown or the circuit breaker has tripped. Replace the fuse or reset the breaker if needed."
+      },
+      {
+        "question": "What do I do if the motor stops in my dishwasher?",
+        "answer": "The motor will reset itself after a few minutes. If it does not restart, you may need to call for service."
+      },
+      {
+        "question": "Is the overfill protection float important?",
+        "answer": "Yes, it helps the dishwasher fill with the correct amount of water. Make sure it can move freely."
+      },
+      {
+        "question": "What happens if I use the wrong detergent?",
+        "answer": "Using the wrong detergent can cause suds which may prevent the dishwasher from running properly. Always use the recommended dishwasher detergent."
+      },
+      {
+        "question": "How do I clean the filters in my dishwasher?",
+        "answer": "Refer to the manual for the recommended time interval. Clean them regularly to keep the dishwasher running well."
+      },
+      {
+        "question": "Can I use a vinegar rinse in my dishwasher?",
+        "answer": "Yes, running a vinegar rinse can help eliminate odors. Follow the instructions in the manual for the best results."
+      },
+      {
+        "question": "What should I check after installing my dishwasher?",
+        "answer": "Make sure the water supply is turned on and that all connections are secure. Also, remove the disposer knockout plug if you haven’t already."
+      },
+      {
+        "question": "How do I prevent odor buildup in my dishwasher?",
+        "answer": "Run the dishwasher regularly, clean the filters, and use a dishwasher cleaner tablet monthly."
+      },
+      {
+        "question": "What causes a new dishwasher to smell like plastic?",
+        "answer": "A new dishwasher may have a plastic smell. Running a vinegar rinse can help get rid of it."
+      },
+      {
+        "question": "Why is it important to replace the rinse aid dispenser cap?",
+        "answer": "Not replacing the rinse aid cap after filling can cause suds, which may prevent the dishwasher from working correctly."
+      },
+      {
+        "question": "What's the best way to choose a wash cycle?",
+        "answer": "Select the cycle based on how dirty your dishes are. The manual has details on which cycle is best for different types of loads."
+      },
+      {
+        "question": "Why does the bottom rack not fully slide into the dishwasher?",
+        "answer": "Check to see if items are blocking the spray jets or spray arm. Remove or reload the items to keep them from interfering."
+      },
+      {
+        "question": "What can I do if my dishes do not dry completely?",
+        "answer": "Make sure you are using a rinse aid. It helps reduce moisture and improves drying. Also, use the heated drying option for better results."
+      },
+      {
+        "question": "Why are my plastics still wet after a wash?",
+        "answer": "Plastics often do not dry well in the dishwasher. You may need to towel dry them after the cycle is finished."
+      },
+      {
+        "question": "How can I tell if I need more rinse aid?",
+        "answer": "Check the rinse aid indicator on the dishwasher. If it is empty or low, refill it for better drying performance."
+      },
+      {
+        "question": "What causes spots and stains on my dishes?",
+        "answer": "Hard water or high mineral content in your water can cause spots. Using a rinse aid during the final rinse helps reduce this issue."
+      },
+      {
+        "question": "What temperature should my water be for best cleaning?",
+        "answer": "The water temperature entering the dishwasher should be about 120°F (49°C) for the best cleaning results."
+      },
+      {
+        "question": "How much detergent should I use in the dishwasher?",
+        "answer": "Use at least 1 tablespoon (15 grams) of detergent per load. Make sure the detergent is fresh for it to work effectively."
+      },
+      {
+        "question": "Is there a better type of detergent to use?",
+        "answer": "Dishwasher detergent tablets and packs are recommended as they are more effective than powder, liquid, or gel detergents."
+      },
+      {
+        "question": "What should I do if my glassware has spots?",
+        "answer": "Remove all metal items and run a vinegar rinse to help clean the glassware and reduce spots."
+      },
+      {
+        "question": "What is silica film on my dishes?",
+        "answer": "Silica film looks like a milky, rainbow color on glassware and is caused by the water and detergent. Using less detergent and a rinse aid can help."
+      },
+      {
+        "question": "Why are my nonstick pans getting white spots?",
+        "answer": "The dishwasher detergent can remove the seasoning from nonstick cookware. Reseason the cookware after washing."
+      },
+      {
+        "question": "What can I do about brown stains on my dishes?",
+        "answer": "High iron content in your water can cause brown stains. Rinse the dishes with citric acid crystals and run a normal wash cycle."
+      },
+      {
+        "question": "How do I remove black or gray marks from my dishes?",
+        "answer": "These marks may come from aluminum items. Handwash disposable aluminum items to prevent marking, and use a mild abrasive cleaner to remove any marks."
+      },
+      {
+        "question": "How can I fix orange stains on my plastic dishes?",
+        "answer": "Orange stains may come from tomato-based foods. Use a stain removal product to help clean them, but they won't affect how the dishwasher works."
+      },
+      {
+        "question": "Why does my dishwasher make grinding sounds?",
+        "answer": "Grinding sounds may mean a hard object is stuck in the wash module. The noise should stop once the object is ground up. If it continues, you may need to call for service."
+      },
+      {
+        "question": "What does it mean when the dishwasher stops and starts frequently?",
+        "answer": "It is normal for the dishwasher to stop and start during the cycle. This helps with cleaning performance and saves energy."
+      },
+      {
+        "question": "Why do I hear a hissing sound from the dishwasher?",
+        "answer": "A hissing sound is normal. It usually happens when the water valve fills the dishwasher."
+      },
+      {
+        "question": "What should I do if my dishwasher is making a lot of noise?",
+        "answer": "Noises like snapping are normal when the detergent dispenser opens. If you hear unusual grinding or buzzing that doesn't stop, check for any objects inside."
+      },
+      {
+        "question": "What should I check if my dishes are still dirty after a wash cycle?",
+        "answer": "Make sure not to overload the dishwasher. Allow enough space for water to reach all dishes. Use a proper amount of detergent too."
+      },
+      {
+        "question": "Can I put aluminum items in the dishwasher?",
+        "answer": "It's best not to put disposable aluminum items in the dishwasher as they can break down and leave marks on other dishes."
+      },
+      {
+        "question": "How can I solve the problem of filming on my dishes?",
+        "answer": "Use a rinse aid to help reduce filming. Also, ensure your water temperature is high enough and consider the quality of your detergent."
+      },
+      {
+        "question": "Why are my dishes not completely clean after a wash?",
+        "answer": "Check if your dishwasher is loaded correctly first. If it's not, it can block water from reaching all the dishes."
+      },
+      {
+        "question": "What should I do if there's food left on my dishes?",
+        "answer": "Make sure to clean the filters regularly. Check your manual for how often to do this."
+      },
+      {
+        "question": "Did I choose the right wash cycle?",
+        "answer": "If your dishes are heavily soiled, select a heavier wash cycle to get them clean."
+      },
+      {
+        "question": "What temperature should the water be when it enters the dishwasher?",
+        "answer": "The best water temperature for cleaning is 120°F (49°C). Make sure your water is this hot before starting."
+      },
+      {
+        "question": "How much detergent should I use?",
+        "answer": "Use at least 1 tablespoon (15 grams) of fresh, recommended dishwasher detergent for each load."
+      },
+      {
+        "question": "What if there’s caked detergent in the dispenser?",
+        "answer": "Clean the dispenser if you see caked detergent. Always use fresh detergent and avoid letting it sit in a wet dispenser."
+      },
+      {
+        "question": "Can labels from bottles clog the dishwasher?",
+        "answer": "Yes, if labels get stuck in the pump or spray arm, they can block water flow. Check and remove any labels."
+      },
+      {
+        "question": "What water pressure do I need for my dishwasher?",
+        "answer": "Your home water pressure should be between 20 to 120 psi (138 to 828 kPa) for the dishwasher to fill properly."
+      },
+      {
+        "question": "Is it okay to use laundry detergent in my dishwasher?",
+        "answer": "No, you should only use recommended dishwasher detergents. Avoid using laundry soaps."
+      },
+      {
+        "question": "How do I prevent my dishes from chipping?",
+        "answer": "Load the dishes so they are stable and won’t hit each other during washing. Pull the racks in and out gently."
+      },
+      {
+        "question": "Should I wash delicate dishes in the dishwasher?",
+        "answer": "Antiques and delicate glassware may not be safe in the dishwasher. It's better to wash these items by hand."
+      },
+      {
+        "question": "What should I do if the dishwasher is making strange noises?",
+        "answer": "Check if there are any items stuck in the spray arms or if anything is blocking the pump."
+      },
+      {
+        "question": "How can I keep my dishwasher clean?",
+        "answer": "Regularly clean the filters and wipe down the inside with a damp cloth to remove food residue."
+      },
+      {
+        "question": "How often should I clean the filters?",
+        "answer": "Refer to the manual for the recommended cleaning schedule for your dishwasher’s filters."
+      },
+      {
+        "question": "What happens if I don’t use enough detergent?",
+        "answer": "Not using enough detergent can result in dirty dishes. Always measure out at least 1 tablespoon."
+      },
+      {
+        "question": "Why are there spots on my clean dishes?",
+        "answer": "Spots can be caused by hard water. You might need to use a rinse aid to help with this."
+      },
+      {
+        "question": "Is it safe to run the dishwasher at night?",
+        "answer": "Yes, it's safe to run the dishwasher at night as long as you follow all safety precautions."
+      },
+      {
+        "question": "Can I overload the dishwasher?",
+        "answer": "Avoid overloading, as it can block water and reduce cleaning effectiveness."
+      },
+      {
+        "question": "What is the best way to load glasses?",
+        "answer": "Place glasses upside down on the top rack to prevent them from filling with water."
+      },
+      {
+        "question": "How can I remove stuck-on food from dishes before loading?",
+        "answer": "Rinse off stuck-on food before loading. This helps the dishwasher clean better."
+      },
+      {
+        "question": "What should I do if my dishwasher leaks?",
+        "answer": "Turn it off and check for loose hoses or cracks in the door seal. You may need to call for help."
+      },
+      {
+        "question": "How do I start my dishwasher?",
+        "answer": "To start your dishwasher, first load it with the dishes, ensuring they are facing the spray arms. Close the door and turn the dial or press the button for the wash cycle you want. Then, press the start button."
+      },
+      {
+        "question": "What should I do if the dishwasher doesn't start?",
+        "answer": "Check to make sure the door is fully closed, as the dishwasher won't start if the door is open. Also, ensure it's plugged in and that the circuit breaker hasn't tripped."
+      },
+      {
+        "question": "How do I load dishes properly?",
+        "answer": "Place larger items like pots and pans on the bottom rack and smaller items like cups and glasses on the top rack. Make sure items don’t block the spray arms."
+      },
+      {
+        "question": "Can I wash plastic items in the dishwasher?",
+        "answer": "Yes, but make sure they are labeled as dishwasher safe. Place them on the top rack to avoid melting."
+      },
+      {
+        "question": "Why are my dishes still dirty after washing?",
+        "answer": "This could happen if the dishwasher is overloaded, if the spray arms are clogged, or if you're using low-quality detergent. Make sure to load it properly and check the spray arms."
+      },
+      {
+        "question": "How often should I clean the dishwasher?",
+        "answer": "It's a good idea to clean the dishwasher every month. You can do this by checking for food debris and running an empty cycle with vinegar."
+      },
+      {
+        "question": "What kind of detergent should I use?",
+        "answer": "Look for a dishwasher detergent that is specifically made for dishwashers. Follow the instructions for how much to use on the package."
+      },
+      {
+        "question": "How do I know if my dishwasher needs service?",
+        "answer": "If you notice leaks, strange noises, or if it stops working, it may need service. Also, if it consistently leaves dishes dirty, check the troubleshooting section."
+      },
+      {
+        "question": "What should I avoid putting in the dishwasher?",
+        "answer": "Avoid washing wooden items, non-dishwasher safe plastics, cast iron, and anything that has a non-stick coating that isn't labeled safe for the dishwasher."
+      },
+      {
+        "question": "How can I fix a dishwasher that leaks?",
+        "answer": "First, check the door seal for any damage. Also, ensure the water inlet valve is working properly and that hoses are securely attached."
+      },
+      {
+        "question": "What do I do if I smell something bad in the dishwasher?",
+        "answer": "Check for food debris stuck in the bottom or filter. Running a cycle with vinegar can help remove odors."
+      },
+      {
+        "question": "How do I clean the filter in my dishwasher?",
+        "answer": "Locate the filter at the bottom of the dishwasher, take it out, and rinse it under warm water to remove any debris. Let it dry before putting it back."
+      },
+      {
+        "question": "Can I use regular dish soap in my dishwasher?",
+        "answer": "No, regular dish soap can cause too many bubbles and may damage the machine. Use only dishwasher-specific detergent."
+      },
+      {
+        "question": "What should I check if my dishwasher is making loud noises?",
+        "answer": "Check for loose items in the dishwasher that may be knocking around. Also, verify that the spray arms can spin freely without obstruction."
+      },
+      {
+        "question": "How do I reset my dishwasher?",
+        "answer": "To reset your dishwasher, unplug it for a minute or turn off the circuit breaker. Then plug it back in or switch the breaker on."
+      },
+      {
+        "question": "Why is my dishwasher not draining?",
+        "answer": "Check for clogs in the drain hose or the filter. If those are clear and it still won't drain, it may need service."
+      },
+      {
+        "question": "How can I make my dishes dry better?",
+        "answer": "Try using a rinse aid, which helps water slide off dishes. You can also use a heated dry cycle if your dishwasher has one."
+      },
+      {
+        "question": "What is covered under the warranty for my dishwasher?",
+        "answer": "The warranty covers factory specified parts and repair labor for defects in materials or workmanship within one year of purchase."
+      },
+      {
+        "question": "What is not covered under the warranty?",
+        "answer": "Damage from misuse, improper maintenance, and the use of non-genuine parts are not covered. Also, food loss due to machine failure won't be covered."
+      },
+      {
+        "question": "How do I get service for my dishwasher?",
+        "answer": "Call the Customer Experience Centeron on 1 800 12 34 56, or check the warranty information for authorized service providers in your area."
+      },
+      {
+        "question": "Who can I call?",
+        "answer": "Call the Customer Experience Centeron on 1 800 12 34 56, or check the warranty information for authorized service providers in your area."
+      }
+    ],
+    "validation": {
+        "questions": [
+            "Who is spiderman?",
+            "Why are you making so much noise?",
+            "How do I fix it if the dishes aren’t coming out clean?",
+            "Why is this cycle taking so long?",
+            "How do I safely load glassware without it breaking?",
+            "Why did the dishwasher stop halfway through?",
+            "What should I do if the rinse aid compartment won’t close?",
+            "Why is the dishwasher showing this error code?",
+            "Can the dishwasher sanitize baby bottles?",
+            "How do I reset the dishwasher if it’s frozen?",
+            "Why does it smell so bad in there?",
+            "How often do I need to clean this thing?",
+            "Why does the door keep popping open?",
+            "Why is there water all over the floor under the washer?",
+            "How do I stop the dishwasher from shaking like that?",
+            "Why is there white marks on my dishes?",
+            "Can I put my non-stick pans in here?",
+            "Why isn’t it drying the dishes properly?",
+            "Who do i call to fix you?",
+            "Why is there water leaking out from under the dishwasher?"
+        ],
+        "answers": [
+            "Unusual sounds may be caused by items touching the spray arms. Rearrange the dishes to ensure nothing is interfering with their rotation.",
+            "Ensure that dishes are properly loaded without blocking the spray arms, and that the filter is clean to allow proper water circulation.",
+            "If the dishwasher runs unusually long, try resetting it by holding the Start button for a few seconds.",
+            "Place wine glasses securely in the top rack, using stemware holders if available to prevent tipping.",
+            "If the dishwasher runs unusually long, try resetting it by holding the Start button for a few seconds.",
+            "Check for any obstructions like utensils or large dishes preventing the door from closing fully.",
+            "Error code E1 indicates a water inlet problem. Check that the water supply is on and the inlet hose is not kinked or blocked.",
+            "Yes, place dishwasher-safe baby bottles on the top rack and use a sanitizing cycle if available.",
+            "To reset, press and hold the Start button for 3 seconds to cancel the current cycle, then select a new cycle if needed.",
+            "Run an empty cycle with a dishwasher cleaner or a cup of white vinegar placed on the top rack to eliminate odors.",
+            "For optimal performance, clean the filter at least once a month or more frequently if needed.",
+            "Check for any obstructions like utensils or large dishes preventing the door from closing fully.",
+            "A small amount of water is normal. If excessive, check for clogs in the drain filter or hose.",
+            "Ensure your dishwasher is level and securely mounted to prevent shaking.",
+            "White residue is often due to hard water minerals. Using a rinse aid can help.",
+            "While some non-stick items are dishwasher-safe, hand washing is recommended to prolong their lifespan.",
+            "For effective drying, use a rinse aid and select a drying cycle if available. Avoid overloading, as it can block airflow, and open the door after the cycle to release steam.",
+            "Please call our customer service line at 1 800 1 2 3 45 67.",
+            "A small amount of water is normal. If excessive, check for clogs in the drain filter or hose."
+        ]
+    }
+}

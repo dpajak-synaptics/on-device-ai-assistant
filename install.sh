@@ -44,7 +44,7 @@ git clone --branch master --single-branch https://github.com/ggerganov/llama.cpp
 cd llama.cpp
 cmake -B build -DGGML_NATIVE=OFF -DGGML_CPU_ARM_ARCH=armv8-a
 cmake --build build --config release --target llama-embedding
-
+cmake --build build --config release --target llama-cli
 
 cd "$CURRENT_DIR"
 

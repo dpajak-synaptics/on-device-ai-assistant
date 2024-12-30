@@ -28,6 +28,7 @@ def generate_embedding(text):
     """
     Generates embeddings for the given text using the quantized model.
     """
+
     try:
         # Download the quantized model
         model_path = download_quantized_model()
