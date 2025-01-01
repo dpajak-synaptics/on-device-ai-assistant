@@ -1,5 +1,6 @@
 {
     "qa_pairs":[
+    {"question": "OK, thank you.", "answer": "You're welcome"},
     {"question": "what's the time?", "answer": "{time}"},
     {"question": "what's the weather?", "answer": "{weather}"},
     {"question": "tell me a joke", "answer": "{joke}"},

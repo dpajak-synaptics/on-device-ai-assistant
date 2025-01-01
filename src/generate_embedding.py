@@ -38,8 +38,8 @@ def generate_embedding(text):
             f'{DEMO_DIR}/../models/llama.cpp/build/bin/llama-embedding',
             '-m', model_path,
             '-p', text,
-            '--ctx-size', '128',
-            '--batch-size', '512',
+            '--ctx-size', '256',
+            '--batch-size', '1024',
             '--embd-output-format', 'json',
             '-v'
         ]

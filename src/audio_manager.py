@@ -74,7 +74,6 @@ class AudioManager:
                 break
 
     def _get_usb_audio_device(self):
-        return "default"
         """Finds the audio device ID for a USB Audio device using `aplay -l`."""
         self.wait_for_audio()
 

@@ -16,8 +16,8 @@ BASE_QA = f'{DEMO_DIR}/../data/base.json'
 MARS_DATA = f'{DEMO_DIR}/../data/mars.json'
 DISHWASHER_DATA = f'{DEMO_DIR}/../data/dishwasher.json'
 
-
-
+ANSI_YELLOW = "\033[93m"
+ANSI_RESET = "\033[0m"
 
 class Agent:
     def __init__(self, threshold=0.4, keyword_weight=0.5, semantic_weight=1.2, qa_file=DISHWASHER_DATA):
@@ -113,7 +113,11 @@ class Agent:
 
     def answer_query(self, query):
         """Find the best answer to a query using combined semantic and keyword search."""
+
+        start_embedding = time.time()
         query_embedding = generate_embedding(query)
+        end_embedding = time.time()
+        print(f"{ANSI_YELLOW}Embedding Time: {(end_embedding-start_embedding):.2f} ms{ANSI_RESET}")
 
         if query_embedding is None:
             return "Sorry, I couldn't generate an embedding for your query."

@@ -5,7 +5,7 @@ import time
 from tokenizers import Tokenizer
 
 class SpeechToText:
-    def __init__(self, model_name="base", rate=16000):
+    def __init__(self, model_name="tiny", rate=16000):
         if rate != 16000:
             raise ValueError("Moonshine supports sampling rate 16000 Hz.")
         

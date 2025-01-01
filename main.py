@@ -1,5 +1,6 @@
 import os
 import gc
+import time
 import numpy as np
 from src.agent import Agent
 from src.audio_manager import AudioManager
@@ -19,6 +20,8 @@ MAX_SPEECH_SECS = 15
 VAD_THRESHOLD = 0.2
 VAD_MIN_SILENCE_DURATION_MS = 300
 
+ANSI_YELLOW = "\033[93m"
+ANSI_RESET = "\033[0m"
 
 def initialize_vad():
     """Initialize and return the Voice Activity Detection model and iterator."""
@@ -39,20 +42,20 @@ if __name__ == "__main__":
     agent = Agent()
     accuracy = 0
 
-    print("Testing agent...")
-    for question, expected_answer in zip(agent.valQuestions, agent.valAnswers):
+    # print("Testing agent...")
+    # for question, expected_answer in zip(agent.valQuestions, agent.valAnswers):
 
-        response = agent.handle_query(question)
-        if (response['answer'] == expected_answer) and (response['confidence'] > agent.threshold):
-            accuracy += response['confidence']
-        else:
-            accuracy -= response['confidence']
-            print(f"\nTest question: {question}")
-            print(f"Test answer: {response['answer']}")
-            print(f"Similarity: {response['confidence']}")
-            # print(f"Expected answer: {expected_answer}")
+    #     response = agent.handle_query(question)
+    #     if (response['answer'] == expected_answer) and (response['confidence'] > agent.threshold):
+    #         accuracy += response['confidence']
+    #     else:
+    #         accuracy -= response['confidence']
+    #         print(f"\nTest question: {question}")
+    #         print(f"Test answer: {response['answer']}")
+    #         print(f"Similarity: {response['confidence']}")
+    #         # print(f"Expected answer: {expected_answer}")
 
-    print(f"Mean similarity: {accuracy / len(agent.valQuestions) * 100:.2f}%") 
+    # print(f"Mean similarity: {accuracy / len(agent.valQuestions) * 100:.2f}%") 
 
     vad_iterator = initialize_vad()
     audio = AudioManager()
@@ -67,8 +70,7 @@ if __name__ == "__main__":
 
     # Array of strings to ask for more details
     detail_prompts = [
-        "OK. Tell me more.",
-        "Please provide more detail?",
+        "Please provide me a little more detail.",
         "Sorry, I don't know the answer."
     ]
     prompt_index = 0
@@ -93,19 +95,29 @@ if __name__ == "__main__":
                         audio.stop_arecord()  # Stop recording
 
                         # Transcribe speech to text
+                        start_transcribe = time.time()
                         query = speech_to_text.transcribe(speech)
+                        end_transcribe = time.time()
+                        transcribe_time = (end_transcribe - start_transcribe) * 1000  # Convert to milliseconds
+                        print(f"{ANSI_YELLOW}Transcription Time: {transcribe_time:.2f} ms{ANSI_RESET}")
                         print(f"Transcribed Query: {query}")
+
                         length = len(query)
                         print(f"Length of response: {length}")
 
-                        # if response answer is empty, break
+                        # If response answer is empty, break
                         if length == 0:
                             print("Voice detected but no text output.")
                             speech *= 0.0
                             break
 
                         # Handle query with the agent
+                        start_response = time.time()
                         response = agent.handle_query(query)
+                        end_response = time.time()
+                        response_time = (end_response - start_response) * 1000  # Convert to milliseconds
+                        print(f"{ANSI_YELLOW}Response Generation Time: {response_time:.2f} ms{ANSI_RESET}")
+                            
                         print(f"Agent Response: {response}")
 
                         if response['confidence'] > agent.threshold:
