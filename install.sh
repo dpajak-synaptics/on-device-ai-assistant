@@ -42,7 +42,7 @@ print_message $GREEN "Installing Llama.cpp embedding..."
 print_message $GREEN "=================================\n"
 git clone --branch master --single-branch https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
-cmake -B build # -DGGML_NATIVE=OFF -DGGML_CPU_ARM_ARCH=armv8-a
+cmake -B build 
 cmake --build build --config release --target llama-embedding
 #cmake --build build --config release --target llama-cli
 

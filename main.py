@@ -7,7 +7,6 @@ from src.audio_manager import AudioManager
 from silero_vad import load_silero_vad, VADIterator
 from sklearn.metrics.pairwise import cosine_similarity
 from src.speech_to_text import SpeechToText
-from src.generate_embedding import generate_embedding
 from src.text_to_speech import text_to_speech
 #from src.llm import llm
 

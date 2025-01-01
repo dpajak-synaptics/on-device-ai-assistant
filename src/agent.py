@@ -5,7 +5,7 @@ import time
 import pandas as pd
 from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
-from src.generate_embedding import generate_embedding
+from src.generate_embedding import Embeddings
 from src.utils import file_checksum
 from collections import Counter
 import re
@@ -22,6 +22,7 @@ ANSI_RESET = "\033[0m"
 class Agent:
     def __init__(self, threshold=0.4, keyword_weight=0.5, semantic_weight=1.2, qa_file=DISHWASHER_DATA):
         self.threshold = threshold
+        self.embeddings = Embeddings()
         self.keyword_weight = keyword_weight
         self.semantic_weight = semantic_weight
         self.qa_file = qa_file
@@ -97,7 +98,7 @@ class Agent:
 
         print("Generating question embeddings...")
         questions = [pair["question"] + " " + pair["answer"] for pair in qa_pairs]
-        question_embeddings = np.array([generate_embedding(q) for q in tqdm(questions)])
+        question_embeddings = np.array([self.embeddings.generate(q) for q in tqdm(questions)])
 
         embedding_df = pd.DataFrame(question_embeddings)
         embedding_df.to_csv(filename, sep='\t', index=False, header=False)
@@ -115,9 +116,10 @@ class Agent:
         """Find the best answer to a query using combined semantic and keyword search."""
 
         start_embedding = time.time()
-        query_embedding = generate_embedding(query)
+        query_embedding = self.embeddings.generate(query)
         end_embedding = time.time()
-        print(f"{ANSI_YELLOW}Embedding Time: {(end_embedding-start_embedding):.2f} ms{ANSI_RESET}")
+        print(f"{ANSI_YELLOW}Embedding Time: {(end_embedding - start_embedding) * 1000:.2f} ms{ANSI_RESET}")
+
 
         if query_embedding is None:
             return "Sorry, I couldn't generate an embedding for your query."
