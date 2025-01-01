@@ -1,0 +1,9 @@
+{
+    "qa_pairs":[
+    {"question": "what's the time?", "answer": "{time}"},
+    {"question": "what's the weather?", "answer": "{weather}"},
+    {"question": "tell me a joke", "answer": "{joke}"},
+    {"question": "Execute dishwasher program", "answer": "{load_dishwasher}"},
+    {"question": "Execute mars program", "answer": "{load_mars}"}
+]
+}

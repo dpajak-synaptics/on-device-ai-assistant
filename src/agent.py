@@ -1,6 +1,7 @@
 import json
 import os
 import numpy as np
+import time
 import pandas as pd
 from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
@@ -10,14 +11,20 @@ from collections import Counter
 import re
 
 DEMO_DIR = os.path.dirname(__file__)
-QA_DATA = f'{DEMO_DIR}/../data/dishwasher.json'
+BASE_QA = f'{DEMO_DIR}/../data/base.json'
+
+MARS_DATA = f'{DEMO_DIR}/../data/mars.json'
+DISHWASHER_DATA = f'{DEMO_DIR}/../data/dishwasher.json'
+
+
 
 
 class Agent:
-    def __init__(self, threshold=0.5, keyword_weight=0.5, semantic_weight=1.2):
+    def __init__(self, threshold=0.4, keyword_weight=0.5, semantic_weight=1.2, qa_file=DISHWASHER_DATA):
         self.threshold = threshold
         self.keyword_weight = keyword_weight
         self.semantic_weight = semantic_weight
+        self.qa_file = qa_file
         self.stop_words = {
             "a", "an", "the", "and", "or", "but", "if", "then", "else", "when", "while", 
             "of", "to", "in", "on", "at", "by", "for", "with", "about", "as", "into", 
@@ -31,11 +38,15 @@ class Agent:
             "theirs", "what", "which", "who", "whom", "this", "that", "these", "those", 
             "there", "here", "when", "where", "why", "how", "all", "any", "both", 
             "each", "few", "many", "more", "most", "some", "such", "no", "nor", "not", 
-            "only", "own", "same", "so", "than", "too", "very"
+            "only", "own", "same", "so", "than", "too", "very", "computer"
         }
         self.qa_pairs = self.load_manual_data()
         self.question_embeddings = self.load_embeddings(self.qa_pairs)
 
+    def change_agent(self, qa_file):
+        self.qa_file = qa_file
+        self.qa_pairs = self.load_manual_data()
+        self.question_embeddings = self.load_embeddings(self.qa_pairs)
 
     def preprocess_text(self, text):
         """Preprocess text by tokenizing, normalizing, and removing stop words."""
@@ -45,40 +56,27 @@ class Agent:
         filtered_tokens = [token for token in tokens if token not in self.stop_words]
         return filtered_tokens
 
-    def load_manual_data(self):
-        """Load QA data from a JSON file, cache it as a TSV file, and extract keywords."""
-        filename = QA_DATA
-        with open(filename, 'r') as file:
-            file = json.load(file)
-
-        manual_data = file['qa_pairs']
-        self.valQuestions = file['validation']['questions']
-        self.valAnswers = file['validation']['answers']
-
-        # Pre-extract keywords for all questions
-        for pair in manual_data:
-            pair['keywords'] = Counter(self.preprocess_text(pair['question']))
-
-        qa_df = pd.DataFrame(manual_data)
-        qa_df.to_csv(f'{DEMO_DIR}/../cached/metadata.tsv', index=False, header=True, sep='\t')
-
-        return manual_data
-
     def keyword_match_score(self, query, question_keywords):
         """Calculate a simple keyword overlap score."""
         query_tokens = Counter(self.preprocess_text(query))
         intersection = sum((query_tokens & question_keywords).values())
         total = sum(query_tokens.values())
         return intersection / total if total > 0 else 0
+    
     def load_manual_data(self):
         """Load QA data from a JSON file, cache it as a TSV file, and extract keywords."""
-        filename = QA_DATA
-        with open(filename, 'r') as file:
+
+        with open(BASE_QA, 'r') as file:
+            base = json.load(file)
+
+        with open(self.qa_file, 'r') as file:
             file = json.load(file)
 
-        manual_data = file['qa_pairs']
+        manual_data = base['qa_pairs'] + file['qa_pairs']
         self.valQuestions = file['validation']['questions']
         self.valAnswers = file['validation']['answers']
+        self.voiceModel = file['voice']['onnx_file']
+        self.voiceJson = file['voice']['json_file']
 
         # Pre-extract keywords for all questions
         for pair in manual_data:
@@ -147,6 +145,18 @@ class Agent:
 
     def run_command_tokens(self, answer):
         """Process and replace command tokens in the answer."""
+
+        # Check for specific token to change agent
+        if "{load_mars}" in answer:
+            self.change_agent(MARS_DATA)
+            time.sleep(0.2)
+            return "Mars mission ships computer demo active."
+
+        if "{load_dishwasher}" in answer:
+            self.change_agent(DISHWASHER_DATA)
+            time.sleep(0.2)
+            return "Dishwasher AI assistant demo active."
+
         tools_file = f'{DEMO_DIR}/../data/tools.json'
         if not os.path.exists(tools_file):
             return answer

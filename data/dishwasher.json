@@ -1,5 +1,13 @@
 {
+    "voice": {
+      "onnx_file":"en/en_US/lessac/low/en_US-lessac-low.onnx", 
+      "json_file":"en/en_US/lessac/low/en_US-lessac-low.onnx.json"
+    },
     "qa_pairs": [
+      {
+        "question": "Who are you?",
+        "answer": "I am an dishwasher AI assistant running on Synaptics Astra"
+      },
       {
         "question": "How do I start using my dishwasher?",
         "answer": "To start using your dishwasher, first place your dirty dishes inside. Make sure not to overcrowd the machine. Then add detergent in the designated area and check if you need to add rinse aid. Close the door and select the desired wash cycle. Finally, press the start button."
@@ -1023,10 +1031,6 @@
       {
         "question": "How do I prevent odor buildup in my dishwasher?",
         "answer": "Run the dishwasher regularly, clean the filters, and use a dishwasher cleaner tablet monthly."
-      },
-      {
-        "question": "What causes a new dishwasher to smell like plastic?",
-        "answer": "A new dishwasher may have a plastic smell. Running a vinegar rinse can help get rid of it."
       },
       {
         "question": "Why is it important to replace the rinse aid dispenser cap?",

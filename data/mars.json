@@ -1,0 +1,312 @@
+{
+    "voice": {
+        "onnx_file":"en/en_US/kathleen/low/en_US-kathleen-low.onnx", 
+        "json_file":"en/en_US/kathleen/low/en_US-kathleen-low.onnx.json"
+      },
+    "qa_pairs": [
+        {
+            "question": "What is the name of the spacecraft?",
+            "answer": "The spacecraft is called The Astra."
+        },
+        {
+            "question": "What about weapons?",
+            "answer": "This is a science mission. Access is restricted."
+        },
+        {
+            "question": "Who are you? What is your name?",
+            "answer": "I am Synaptics Astra S L 16 80, the ship's AI assistant"
+        },
+        {
+            "question": "What is our current position?",
+            "answer": "The ship is fifty million kilometers from Earth."
+        },
+        {
+            "question": "What is our destination?",
+            "answer": "Our destination is Mars."
+        },
+        {
+            "question": "What is the our current speed?",
+            "answer": "The ship is traveling at twenty-five thousand kilometers per hour."
+        },
+        {
+            "question": "How many crew members are on the ship?",
+            "answer": "There are six crew members onboard."
+        },
+        {
+            "question": "What is the current health status of the crew?",
+            "answer": "All crew members are in good health."
+        },
+        {
+            "question": "What is the primary mission objective?",
+            "answer": "The mission objective is to land on Mars and conduct scientific research."
+        },
+        {
+            "question": "What power source is the ship using?",
+            "answer": "The ship is using solar panels as its primary power source."
+        },
+        {
+            "question": "What is the current oxygen level on the ship?",
+            "answer": "The oxygen level is twenty-one percent."
+        },
+        {
+            "question": "Is the ship's trajectory stable?",
+            "answer": "Yes, the trajectory is stable and on course."
+        },
+        {
+            "question": "What is the current fuel level?",
+            "answer": "The ship has seventy-five percent of its fuel remaining."
+        },
+        {
+            "question": "What is the current communication status with Earth?",
+            "answer": "Communication with Earth is stable and operational."
+        },
+        {
+            "question": "What is the internal temperature?",
+            "answer": "The internal temperature is twenty-two degrees Celsius."
+        },
+        {
+            "question": "What is the current status of water supplies?",
+            "answer": "Water supplies are at eighty percent capacity."
+        },
+        {
+            "question": "How far is the ship from Mars?",
+            "answer": "The ship is thirty million kilometers from Mars."
+        },
+        {
+            "question": "What is the current radiation level on the ship?",
+            "answer": "Radiation levels are within safe operational limits."
+        },
+        {
+            "question": "What is the current onboard time?",
+            "answer": "The current time on the ship is fourteen thirty-five Universal Coordinated Time."
+        },
+        {
+            "question": "Is the ship's orientation stable?",
+            "answer": "Yes, the ship's orientation is stable and under control."
+        },
+        {
+            "question": "What is the current status of food supplies?",
+            "answer": "Food supplies are at eighty-five percent capacity."
+        },
+        {
+            "question": "Is the ship scheduled for any docking activities?",
+            "answer": "No, there are no docking activities scheduled."
+        },
+        {
+            "question": "Is the ship's propulsion system currently active?",
+            "answer": "No, the propulsion system is in standby mode."
+        },
+        {
+            "question": "What is the current carbon dioxide level onboard?",
+            "answer": "The carbon dioxide level is zero point zero four percent."
+        },
+        {
+            "question": "What is the status of the ship's battery systems?",
+            "answer": "The ship's batteries are fully charged."
+        },
+        {
+            "question": "Is the ship currently in sunlight or shadow?",
+            "answer": "The ship is currently in sunlight."
+        },
+        {
+            "question": "What is the crew's current sleep schedule?",
+            "answer": "The crew sleeps from twenty-two hundred to zero six hundred Universal Coordinated Time."
+        },
+        {
+            "question": "What is the primary activity scheduled for today?",
+            "answer": "The primary activity today is conducting system checks."
+        },
+        {
+            "question": "When do we arrive?",
+            "answer": "The next milestone is the Mars orbit insertion in fifteen days."
+        },
+        {
+            "question": "Are there any maintenance tasks planned?",
+            "answer": "Yes, maintenance tasks are planned for tomorrow."
+        },
+        {
+            "question": "Have any anomalies been detected on the ship?",
+            "answer": "No, no anomalies have been detected."
+        },
+        {
+            "question": "What is the current external temperature of the ship?",
+            "answer": "The external temperature is minus one hundred degrees Celsius."
+        },
+        {
+            "question": "What is the operational status of life support systems?",
+            "answer": "Life support systems are fully operational."
+        },
+        {
+            "question": "What is the communication delay between Earth and the ship?",
+            "answer": "The communication delay is approximately ten minutes one way."
+        },
+        {
+            "question": "What is the current morale level of the crew?",
+            "answer": "The crew morale is high."
+        },
+        {
+            "question": "What experiments are currently running on the ship?",
+            "answer": "Microgravity experiments are actively running."
+        },
+        {
+            "question": "What is the internal pressure level of the ship?",
+            "answer": "The internal pressure is one atmosphere."
+        },
+        {
+            "question": "What phase of the mission is the ship currently in?",
+            "answer": "The mission is in the cruise phase."
+        },
+        {
+            "question": "Is the ship's radar system operational?",
+            "answer": "Yes, the radar system is fully operational."
+        },
+        {
+            "question": "What is the status of the ship's radiation shielding?",
+            "answer": "The radiation shields are active and functioning."
+        },
+        {
+            "question": "Are there any spacewalks planned for the crew?",
+            "answer": "No, there are no spacewalks planned at this time."
+        },
+        {
+            "question": "What is the current temperature of the propulsion fuel?",
+            "answer": "The propulsion fuel temperature is minus ten degrees Celsius."
+        },
+        {
+            "question": "What is the current humidity level in the cabin?",
+            "answer": "The cabin humidity level is forty percent."
+        },
+        {
+            "question": "What is the current status of the ship's cargo?",
+            "answer": "All cargo is secure and undamaged."
+        },
+        {
+            "question": "What mode is the ship currently operating in?",
+            "answer": "The ship is currently in cruise mode."
+        },
+        {
+            "question": "Are the solar panels fully deployed?",
+            "answer": "Yes, the solar panels are fully deployed."
+        },
+        {
+            "question": "Has the ship established contact with Mars satellites?",
+            "answer": "No, contact with Mars satellites has not been established yet."
+        },
+        {
+            "question": "What is the crew's current activity?",
+            "answer": "The crew is currently exercising."
+        },
+        {
+            "question": "Are the scientific instruments operational?",
+            "answer": "Yes, all scientific instruments are operational."
+        },
+        {
+            "question": "Is the ship experiencing any turbulence?",
+            "answer": "No, the ship is not experiencing turbulence."
+        },
+        {
+            "question": "What version of the ship's software is currently running?",
+            "answer": "The ship is running software version three point five."
+        },
+        {
+            "question": "Is any crew training scheduled for today?",
+            "answer": "No, no crew training is scheduled for today."
+        },
+        {
+            "question": "Are the ship's thrusters currently firing?",
+            "answer": "No, the thrusters are currently idle."
+        },
+        {
+            "question": "What is the current gravity level on the ship?",
+            "answer": "The ship is in a microgravity environment."
+        },
+        {
+            "question": "Is the ship currently tracking asteroids?",
+            "answer": "Yes, asteroid tracking systems are active."
+        },
+        {
+            "question": "Are the docking systems ready for operation?",
+            "answer": "Yes, the docking systems are fully functional."
+        },
+        {
+            "question": "What is the main task scheduled for this week?",
+            "answer": "The main task this week is a trajectory correction maneuver."
+        },
+        {
+            "question": "Are there any solar flares detected nearby?",
+            "answer": "No, there are no solar flares detected nearby."
+        },
+        {
+            "question": "What is the operational strength of the ship's shields?",
+            "answer": "The ship's shields are operating at one hundred percent capacity."
+        },
+        {
+            "question": "Is the crew currently conducting repairs?",
+            "answer": "No, the crew is not conducting repairs at this time."
+        },
+        {
+            "question": "What is the operational status of the carbon dioxide scrubbers?",
+            "answer": "The carbon dioxide scrubbers are fully operational."
+        },
+        {
+            "question": "What is the current rate of data transmission?",
+            "answer": "The data transmission rate is five megabits per second."
+        },
+        {
+            "question": "Are the ship's external cameras operational?",
+            "answer": "Yes, the external cameras are fully operational."
+        },
+        {
+            "question": "What is the crew's primary task focus for today?",
+            "answer": "The crew's primary focus today is monitoring ship systems."
+        },
+        {
+            "question": "Is the artificial intelligence system operational?",
+            "answer": "Yes, the artificial intelligence system is fully operational."
+        }
+    ],
+    "validation": {
+        "questions": [
+            "What is our current speed?",
+            "How far are we from Mars?",
+            "What is our current fuel level?",
+            "Why did the engines reduce thrust?",
+            "Is the life support system functioning normally?",
+            "How do I check the oxygen levels on board?",
+            "Why are we receiving an alert about solar radiation?",
+            "Can you show me the mission timeline?",
+            "How do I reset the ship's navigation system?",
+            "Why is the temperature in the cargo bay fluctuating?",
+            "How often should we recalibrate the ship's sensors?",
+            "Why is the artificial gravity acting irregularly?",
+            "What caused the power fluctuation in the main reactor?",
+            "How do I stop the alarm from repeating?",
+            "Why are communications delayed?",
+            "Can the ship's shields handle a meteor shower?",
+            "Why is the hydroponics bay not producing as expected?",
+            "Who do I contact in case of a system override?",
+            "Why is the propulsion system emitting unusual vibrations?"
+        ],
+        "answers": [
+            "Our current speed is 25,000 km/h relative to Earth, with a steady acceleration toward Mars.",
+            "We are currently 150 million kilometers from Mars and closing the gap at a steady rate.",
+            "The ship's fuel reserves are at 75%. All systems are functioning efficiently.",
+            "The engines reduced thrust to conserve fuel during this phase of the mission. This is within operational parameters.",
+            "Yes, all life support systems are operating at optimal levels, ensuring a safe environment for the crew.",
+            "Oxygen levels are at 21% in the main cabin. Check the environmental controls panel for detailed metrics.",
+            "The alert indicates a spike in solar activity. Shields have been adjusted to compensate.",
+            "The mission timeline has been uploaded to your console. You can access it in the 'Mission Overview' section.",
+            "To reset navigation, hold the navigation reset button for 10 seconds, then input the new coordinates manually.",
+            "Temperature fluctuations are due to recalibration of thermal regulators. The issue will resolve in approximately 10 minutes.",
+            "Ship sensors should be recalibrated every 24 hours. I will notify you when the next recalibration is due.",
+            "Artificial gravity irregularities are caused by a minor fluctuation in the graviton field generator. Adjustments are underway.",
+            "The power fluctuation was due to a temporary surge in reactor output. The reactor has stabilized now.",
+            "To stop the alarm, acknowledge it on the control panel, or provide a voice command: 'Acknowledge alarm.'",
+            "Communications are delayed due to the increasing distance from Earth. Current delay is 8 minutes one way.",
+            "The shields are designed to withstand meteor showers of this magnitude. No action is required.",
+            "The hydroponics bay output is lower than expected due to a nutrient imbalance. Adjustments are being made.",
+            "For a system override, contact the mission commander or refer to the emergency protocols in your manual.",
+            "Unusual vibrations are caused by a temporary imbalance in the propulsion system. Diagnostics are in progress."
+        ]
+    }
+}

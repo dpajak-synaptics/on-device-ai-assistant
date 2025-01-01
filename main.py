@@ -1,9 +1,6 @@
 import os
 import gc
 import numpy as np
-import pandas as pd
-from tqdm import tqdm
-from queue import Queue
 from src.agent import Agent
 from src.audio_manager import AudioManager
 from silero_vad import load_silero_vad, VADIterator
@@ -113,7 +110,7 @@ if __name__ == "__main__":
 
                         if response['confidence'] > agent.threshold:
                             # Convert text to speech and play the answer
-                            text = text_to_speech(response['answer'])
+                            text = text_to_speech(response['answer'], agent.voiceModel, agent.voiceJson)
                             audio.play(text)
                             speech *= 0.0
                             prompt_index = 0  # Reset prompt index
@@ -121,7 +118,7 @@ if __name__ == "__main__":
 
                         else:
                             # not confident enough, continue recording
-                            text = text_to_speech(detail_prompts[prompt_index])
+                            text = text_to_speech(detail_prompts[prompt_index], agent.voiceModel, agent.voiceJson)
                             audio.play(text)
                             audio.start_arecord(CHUNK_SIZE)
                             recording = True
