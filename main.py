@@ -78,6 +78,8 @@ if __name__ == "__main__":
     audio.play(f"{DEMO_DIR}/sound/welcome.wav")
 
     print("Press Ctrl+C to quit.")
+    audio.start_arecord(CHUNK_SIZE)  # Start recording
+
 
     try:
         iteration = 0  # Initialize iteration counter
@@ -86,7 +88,7 @@ if __name__ == "__main__":
             print(f"{ANSI_CYAN}Iteration: {iteration}{ANSI_RESET}")
             iteration += 1
 
-            audio.start_arecord(CHUNK_SIZE)  # Start recording
+
 
             for chunk in audio.read(CHUNK_SIZE):
                 #print(f"{ANSI_CYAN}Processing audio chunk...{ANSI_RESET}")
@@ -109,7 +111,7 @@ if __name__ == "__main__":
                     if recording and ("end" in speech_dict or (len(speech) / SAMPLING_RATE) > MAX_SPEECH_SECS):
                         print(f"{ANSI_CYAN}Recording stopped. Processing speech...{ANSI_RESET}")
                         recording = False
-                        audio.stop_arecord()  # Stop recording
+                        # audio.stop_arecord()  # Stop recording
 
                         # Transcribe speech to text
                         start_transcribe = time.time()
@@ -160,9 +162,9 @@ if __name__ == "__main__":
                                 prompt_index = 0  # Reset prompt index
                                 speech *= 0.0
                                 break  # Exit the loop to restart recording
-                            else:
-                                audio.start_arecord(CHUNK_SIZE)
-                                recording = True
+                            # else:
+                            #     audio.start_arecord(CHUNK_SIZE)
+                            #     recording = True
 
 
 
