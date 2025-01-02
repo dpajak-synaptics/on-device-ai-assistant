@@ -22,7 +22,8 @@ class Embeddings:
         try:
             self.model_path = hf_hub_download(
                 repo_id="second-state/All-MiniLM-L6-v2-Embedding-GGUF",
-                filename="all-MiniLM-L6-v2-Q8_0.gguf"
+                filename="all-MiniLM-L6-v2-Q8_0.gguf",
+                local_dir=self.demo_dir+'/../models/'
             )
         except Exception as e:
             print(f"Error downloading model: {e}")
