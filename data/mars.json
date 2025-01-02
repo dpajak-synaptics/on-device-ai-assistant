@@ -1,9 +1,14 @@
 {
+    "threshold": 0.3,
     "voice": {
         "onnx_file":"en/en_US/amy/medium/en_US-amy-medium.onnx", 
         "json_file":"en/en_US/amy/medium/en_US-amy-medium.onnx.json"
       },
     "qa_pairs": [
+            {
+                "question": "Sheilds up.",
+                "answer": "Sheilds are at 100%."
+            },
             {
                 "question": "Computer, status report.",
                 "answer": "All ships systems are operating within normal parameters. The ship's trajectory is stable, and life support is fully operational."
@@ -70,7 +75,7 @@
             },
             {
                 "question": "What power source is the ship using?",
-                "answer": "The ship is using advanced solar arrays and a compact fusion reactor."
+                "answer": "The ship uses solar arrays and a fusion reactor. However, Synaptics Astra consumes as little as 3 watts."
             },
             {
                 "question": "What is the ship's AI capable of?",

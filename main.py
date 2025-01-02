@@ -152,8 +152,7 @@ if __name__ == "__main__":
                             print(f"{ANSI_CYAN}Low confidence. Asking for more details with prompt index {prompt_index}.{ANSI_RESET}")
                             text = text_to_speech(detail_prompts[prompt_index], agent.voiceModel, agent.voiceJson)
                             audio.play(text)
-                            audio.start_arecord(CHUNK_SIZE)
-                            recording = True
+
                             prompt_index += 1
                             if prompt_index >= len(detail_prompts):
                                 # All prompts exhausted
@@ -161,6 +160,9 @@ if __name__ == "__main__":
                                 prompt_index = 0  # Reset prompt index
                                 speech *= 0.0
                                 break  # Exit the loop to restart recording
+                            else:
+                                audio.start_arecord(CHUNK_SIZE)
+                                recording = True
 
 
             # Collect garbage to manage memory usage

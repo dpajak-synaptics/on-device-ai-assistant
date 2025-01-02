@@ -1,4 +1,5 @@
 {
+    "threshold": 0.4,
     "voice": {
       "onnx_file":"en/en_US/lessac/medium/en_US-lessac-medium.onnx", 
       "json_file":"en/en_US/lessac/medium/en_US-lessac-medium.onnx.json"
