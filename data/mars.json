@@ -75,7 +75,7 @@
             },
             {
                 "question": "What power source is the ship using?",
-                "answer": "The ship uses solar arrays and a fusion reactor. However, Synaptics Astra consumes as little as 3 watts."
+                "answer": "The ship uses solar arrays and a fusion reactor. However, Synaptics Astra consumes as little as 3 watts active power."
             },
             {
                 "question": "What is the ship's AI capable of?",

@@ -3,10 +3,14 @@
     {"question": "OK, thank you.", "answer": "You're welcome"},
     {"question": "what's the time?", "answer": "{time}"},
     {"question": "Execute dishwasher program", "answer": "{load_dishwasher}"},
-    {"question": "Execute mars space ship program", "answer": "{load_mars}"},
+    {"question": "Execute mars computer program", "answer": "{load_mars}"},
     {
         "question": "Tell me more about this demo?",
-        "answer": "I am an open-source demo created by Synaptics running efficient on-device speech-to-text and language models."
+        "answer": "I am an open-source demo created by Synaptics. I am running efficient speech-to-text and language models entirely on-device."
+    },
+    {
+        "question": "Where can I learn more about synaptics astra?",
+        "answer": "You can learn more at developer.synaptics.com."
     }
 ]
 }
