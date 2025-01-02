@@ -165,9 +165,6 @@ if __name__ == "__main__":
                                 recording = True
 
 
-            # Collect garbage to manage memory usage
-            gc.collect()
-
 
     except KeyboardInterrupt:
         print("Exiting... Goodbye!")

@@ -20,7 +20,7 @@ ANSI_YELLOW = "\033[93m"
 ANSI_RESET = "\033[0m"
 
 class Agent:
-    def __init__(self, threshold=0.39, keyword_weight=0.5, semantic_weight=1.2, qa_file=DISHWASHER_DATA):
+    def __init__(self, threshold=0.39, keyword_weight=0.4, semantic_weight=1.2, qa_file=DISHWASHER_DATA):
         self.threshold = threshold
         self.embeddings = Embeddings()
         self.keyword_weight = keyword_weight
