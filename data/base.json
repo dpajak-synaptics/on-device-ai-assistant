@@ -5,6 +5,10 @@
     {"question": "what's the weather?", "answer": "{weather}"},
     {"question": "tell me a joke", "answer": "{joke}"},
     {"question": "Execute dishwasher program", "answer": "{load_dishwasher}"},
-    {"question": "Execute mars program", "answer": "{load_mars}"}
+    {"question": "Execute mars program", "answer": "{load_mars}"},
+    {
+        "question": "What software are you running?",
+        "answer": "I am an open-source demo created by Synaptics running the latest in on-device speech-to-text and language models."
+    }
 ]
 }
