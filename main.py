@@ -20,7 +20,9 @@ VAD_THRESHOLD = 0.2
 VAD_MIN_SILENCE_DURATION_MS = 300
 
 ANSI_YELLOW = "\033[93m"
+ANSI_CYAN = "\033[36m"
 ANSI_RESET = "\033[0m"
+
 
 def initialize_vad():
     """Initialize and return the Voice Activity Detection model and iterator."""
@@ -58,8 +60,7 @@ if __name__ == "__main__":
 
     vad_iterator = initialize_vad()
     audio = AudioManager()
-    audio.play(f"{DEMO_DIR}/sound/welcome.wav")
-
+ 
     # Live audio processing loop
     lookback_size = LOOKBACK_CHUNKS * CHUNK_SIZE
     speech = np.empty(0, dtype=np.float32)
@@ -74,22 +75,39 @@ if __name__ == "__main__":
     ]
     prompt_index = 0
 
+    audio.play(f"{DEMO_DIR}/sound/welcome.wav")
+
     print("Press Ctrl+C to quit.")
 
     try:
+        iteration = 0  # Initialize iteration counter
+
         while True:
-            audio.start_arecord(CHUNK_SIZE)  # Start arecord
+            print(f"{ANSI_CYAN}Iteration: {iteration}{ANSI_RESET}")
+            iteration += 1
+
+            audio.start_arecord(CHUNK_SIZE)  # Start recording
+
             for chunk in audio.read(CHUNK_SIZE):
+                #print(f"{ANSI_CYAN}Processing audio chunk...{ANSI_RESET}")
+
+                # Accumulate audio data
                 speech = np.concatenate((speech, chunk))
                 if not recording:
                     speech = speech[-lookback_size:]
 
+                # Perform voice activity detection (VAD)
                 speech_dict = vad_iterator(chunk)
+
                 if speech_dict:
+                    # Start recording if speech begins
                     if "start" in speech_dict and not recording:
                         recording = True
+                        print(f"{ANSI_CYAN}Speech detected. Recording started.{ANSI_RESET}")
 
+                    # Stop recording and process speech if it ends or exceeds max length
                     if recording and ("end" in speech_dict or (len(speech) / SAMPLING_RATE) > MAX_SPEECH_SECS):
+                        print(f"{ANSI_CYAN}Recording stopped. Processing speech...{ANSI_RESET}")
                         recording = False
                         audio.stop_arecord()  # Stop recording
 
@@ -97,50 +115,57 @@ if __name__ == "__main__":
                         start_transcribe = time.time()
                         query = speech_to_text.transcribe(speech)
                         end_transcribe = time.time()
-                        transcribe_time = (end_transcribe - start_transcribe) * 1000  # Convert to milliseconds
+
+                        transcribe_time = (end_transcribe - start_transcribe) * 1000  # Convert to ms
                         print(f"{ANSI_YELLOW}Transcription Time: {transcribe_time:.2f} ms{ANSI_RESET}")
-                        print(f"Transcribed Query: {query}")
+                        print(f"{ANSI_CYAN}Transcribed Query: {query}{ANSI_RESET}")
 
-                        length = len(query)
-                        print(f"Length of response: {length}")
-
-                        # If response answer is empty, break
-                        if length == 0:
-                            print("Voice detected but no text output.")
-                            speech *= 0.0
+                        # Check if the transcription produced output
+                        if len(query) == 0:
+                            print(f"{ANSI_CYAN}Voice detected but no text output.{ANSI_RESET}")
                             break
 
-                        # Handle query with the agent
+                        # Handle the transcribed query
                         start_response = time.time()
                         response = agent.handle_query(query)
                         end_response = time.time()
-                        response_time = (end_response - start_response) * 1000  # Convert to milliseconds
-                        print(f"{ANSI_YELLOW}Response Generation Time: {response_time:.2f} ms{ANSI_RESET}")
-                            
-                        print(f"Agent Response: {response}")
 
-                        if response['confidence'] > agent.threshold:
-                            # Convert text to speech and play the answer
+                        response_time = (end_response - start_response) * 1000  # Convert to ms
+                        print(f"{ANSI_YELLOW}Response Generation Time: {response_time:.2f} ms{ANSI_RESET}")
+                        print(f"{ANSI_CYAN}Agent Response: {response}{ANSI_RESET}")
+
+                        # Check response confidence
+                        confidence = response['confidence']
+                        adjusted_threshold = agent.threshold - (prompt_index / 20)
+                        print(f"{ANSI_CYAN}Confidence: {confidence}, Adjusted Threshold: {adjusted_threshold}{ANSI_RESET}")
+
+                        if confidence > adjusted_threshold:
+                            # Convert the agent's answer to speech and play it
+                            print(f"{ANSI_CYAN}Confidence sufficient. Generating speech response.{ANSI_RESET}")
                             text = text_to_speech(response['answer'], agent.voiceModel, agent.voiceJson)
                             audio.play(text)
                             speech *= 0.0
                             prompt_index = 0  # Reset prompt index
-                            break  # Exit the chunk loop to restart arecord
-
+                            break  # Exit the loop to restart recording
                         else:
-                            # not confident enough, continue recording
+                            # Low confidence, ask for more details
+                            print(f"{ANSI_CYAN}Low confidence. Asking for more details with prompt index {prompt_index}.{ANSI_RESET}")
                             text = text_to_speech(detail_prompts[prompt_index], agent.voiceModel, agent.voiceJson)
                             audio.play(text)
                             audio.start_arecord(CHUNK_SIZE)
                             recording = True
-                            prompt_index= prompt_index+1
+                            prompt_index += 1
                             if prompt_index >= len(detail_prompts):
-                                speech *= 0.0
+                                # All prompts exhausted
+                                print(f"{ANSI_CYAN}All prompts exhausted. Restarting recording loop.{ANSI_RESET}")
                                 prompt_index = 0  # Reset prompt index
-                                break  # Exit the chunk loop to restart arecord
+                                speech *= 0.0
+                                break  # Exit the loop to restart recording
 
 
+            # Collect garbage to manage memory usage
             gc.collect()
+
 
     except KeyboardInterrupt:
         print("Exiting... Goodbye!")
