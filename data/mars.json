@@ -10,6 +10,10 @@
                 "answer": "Sheilds are at 100%."
             },
             {
+                "question": "When will we return home?",
+                "answer": "Mission duration remaining is 512 days"
+            },
+            {
                 "question": "Computer, status report.",
                 "answer": "All ships systems are operating within normal parameters."
             },
