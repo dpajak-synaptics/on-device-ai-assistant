@@ -1,7 +1,7 @@
 {
     "voice": {
-      "onnx_file":"en/en_US/lessac/low/en_US-lessac-low.onnx", 
-      "json_file":"en/en_US/lessac/low/en_US-lessac-low.onnx.json"
+      "onnx_file":"en/en_US/lessac/medium/en_US-lessac-medium.onnx", 
+      "json_file":"en/en_US/lessac/medium/en_US-lessac-medium.onnx.json"
     },
     "qa_pairs": [
       {

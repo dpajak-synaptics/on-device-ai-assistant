@@ -1,7 +1,7 @@
 {
     "voice": {
-        "onnx_file":"en/en_US/kathleen/low/en_US-kathleen-low.onnx", 
-        "json_file":"en/en_US/kathleen/low/en_US-kathleen-low.onnx.json"
+        "onnx_file":"en/en_US/amy/medium/en_US-amy-medium.onnx", 
+        "json_file":"en/en_US/amy/medium/en_US-amy-medium.onnx.json"
       },
     "qa_pairs": [
             {

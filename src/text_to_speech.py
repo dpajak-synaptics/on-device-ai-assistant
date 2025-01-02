@@ -29,16 +29,16 @@ def text_to_speech(answer,onnx_file="en/en_US/lessac/low/en_US-lessac-low.onnx",
 
     # Check if the audio file is already cached
     if os.path.exists(filename):
-        print(f"Playing cached audio file: {filename}")
+        #print(f"Found cached audio file: {filename}")
         return filename
 
     # Ensure models are downloaded
     VOICE_MODEL_ONNX_FILE, _ = download_model_files(onnx_file, json_file)
 
     # Generate audio using the Piper model
-    print(f"Generating audio for: {answer}")
+    #print(f"Generating audio for: {answer}")
     text_to_speech_command = (
-        f"echo \"{answer}\" | {DEMO_DIR}/../models/piper/piper --model {VOICE_MODEL_ONNX_FILE} --output_file {filename}"
+    f"echo \"{answer}\" | {DEMO_DIR}/../models/piper/piper --quiet --model {VOICE_MODEL_ONNX_FILE} --output_file {filename} > /dev/null 2>&1"
     )
     os.system(text_to_speech_command)
   

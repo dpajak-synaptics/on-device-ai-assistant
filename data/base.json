@@ -2,13 +2,11 @@
     "qa_pairs":[
     {"question": "OK, thank you.", "answer": "You're welcome"},
     {"question": "what's the time?", "answer": "{time}"},
-    {"question": "what's the weather?", "answer": "{weather}"},
-    {"question": "tell me a joke", "answer": "{joke}"},
     {"question": "Execute dishwasher program", "answer": "{load_dishwasher}"},
     {"question": "Execute mars program", "answer": "{load_mars}"},
     {
         "question": "What software are you running?",
-        "answer": "I am an open-source demo created by Synaptics running the latest in on-device speech-to-text and language models."
+        "answer": "I am an open-source demo created by Synaptics running efficient on-device speech-to-text and language models."
     }
 ]
 }
