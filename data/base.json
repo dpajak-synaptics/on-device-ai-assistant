@@ -3,9 +3,9 @@
     {"question": "OK, thank you.", "answer": "You're welcome"},
     {"question": "what's the time?", "answer": "{time}"},
     {"question": "Execute dishwasher program", "answer": "{load_dishwasher}"},
-    {"question": "Execute mars program", "answer": "{load_mars}"},
+    {"question": "Execute mars space ship program", "answer": "{load_mars}"},
     {
-        "question": "What software are you running?",
+        "question": "Tell me more about this demo?",
         "answer": "I am an open-source demo created by Synaptics running efficient on-device speech-to-text and language models."
     }
 ]
