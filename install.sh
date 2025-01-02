@@ -89,7 +89,8 @@ Description=On Device Assistant
 After=network.target
 
 [Service]
-ExecStart=/bin/bash -c 'source /home/root/on-device-ai-assistant/.venv/bin/activate && /home/root/on-device-ai-assistant/.venv/bin/python3 /home/root/on-device-ai-assistant/main.py'
+WorkingDirectory=/home/root/on-device-ai-assistant
+ExecStart=/home/root/on-device-ai-assistant/.venv/bin/python3 /home/root/on-device-ai-assistant/main.py
 Restart=on-failure
 User=root
 

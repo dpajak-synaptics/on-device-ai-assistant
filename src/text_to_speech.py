@@ -38,7 +38,7 @@ def text_to_speech(answer,onnx_file="en/en_US/lessac/low/en_US-lessac-low.onnx",
     # Generate audio using the Piper model
     #print(f"Generating audio for: {answer}")
     text_to_speech_command = (
-    f"echo \"{answer}\" | {DEMO_DIR}/../models/piper/piper --quiet --model {VOICE_MODEL_ONNX_FILE} --output_file {filename} > /dev/null 2>&1"
+    f"echo \"{answer}\" | {DEMO_DIR}/../models/piper/piper --quiet  --model {VOICE_MODEL_ONNX_FILE} --output_file {filename} > /dev/null 2>&1"
     )
     os.system(text_to_speech_command)
   

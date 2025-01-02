@@ -13,6 +13,7 @@ class Embeddings:
         """
         self.model_path = None
         self.demo_dir = os.path.dirname(__file__)
+        self.models_dir = os.path.join(self.demo_dir, '../models/')
         self._download_model()
 
     def _download_model(self):
@@ -20,11 +21,16 @@ class Embeddings:
         Downloads the quantized GGUF model from Hugging Face and stores the path.
         """
         try:
+            # Ensure the models directory exists
+            os.makedirs(self.models_dir, exist_ok=True)
+            
+            # Download the model and store its path
             self.model_path = hf_hub_download(
                 repo_id="second-state/All-MiniLM-L6-v2-Embedding-GGUF",
                 filename="all-MiniLM-L6-v2-Q8_0.gguf",
-                local_dir=self.demo_dir+'/../models/'
+                local_dir=self.models_dir
             )
+            print(f"Model downloaded to: {self.model_path}")
         except Exception as e:
             print(f"Error downloading model: {e}")
             exit(1)
@@ -41,8 +47,9 @@ class Embeddings:
         """
         try:
             # Construct the full command
+            llama_bin_path = os.path.join(self.demo_dir, '../models/llama.cpp/build/bin/llama-embedding')
             command = [
-                f'{self.demo_dir}/../models/llama.cpp/build/bin/llama-embedding',
+                llama_bin_path,
                 '-m', self.model_path,
                 '-p', text,
                 '--ctx-size', '128',
@@ -58,7 +65,7 @@ class Embeddings:
                 print("Error: Llama-embedding command failed to execute successfully.")
                 print("Return code:", result.returncode)
                 print("Error output:", result.stderr)
-                raise RuntimeError("Llama-embedding command failed")
+                raise RuntimeError(f"Llama-embedding command failed\n{command}")
 
             if not result.stdout:
                 print("Error: No output from llama-embedding command.")
@@ -80,7 +87,7 @@ class Embeddings:
 
 # Example usage
 if __name__ == "__main__":
-    generator = EmbeddingGenerator()
+    generator = Embeddings()
     sample_text = "This is a sample text for generating embeddings."
     embedding = generator.generate(sample_text)
     print("Generated Embedding:", embedding)
