@@ -6,4 +6,3 @@ silero-vad
 tokenizers
 pandas
 datetime
-zoneinfo
