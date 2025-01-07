@@ -1,0 +1,11 @@
+{
+    "embeddings": [
+      {
+        "tensorName": "Synaptics AI Assistant Demo Q&As",
+        "tensorShape": [328, 384],
+        "tensorPath": "https://raw.githubusercontent.com/dpajak-synaptics/on-device-ai-assistant/refs/heads/wip/demo-v2/data/visualization/vectors-example.tsv",
+        "metadataPath": "https://raw.githubusercontent.com/dpajak-synaptics/on-device-ai-assistant/refs/heads/wip/demo-v2/data/visualization/metadata-example.tsv"
+      }
+    ]
+  }
+  
