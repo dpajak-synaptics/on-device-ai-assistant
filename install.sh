@@ -42,9 +42,9 @@ print_message $GREEN "Installing Llama.cpp embedding..."
 print_message $GREEN "=================================\n"
 git clone --branch master --single-branch https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
-cmake -B build
+cmake -B build 
 cmake --build build --config release --target llama-embedding
-
+#cmake --build build --config release --target llama-cli
 
 cd "$CURRENT_DIR"
 
@@ -77,8 +77,8 @@ if [[ "$user_input" =~ ^[Yy]$ ]]; then
     echo "Installing the On Device Assistant service..."
 
     # Define paths
-    SCRIPT_PATH="/home/root/on-device-assistant/main.py"
-    SERVICE_PATH="/etc/systemd/system/on-device-assistant.service"
+    SCRIPT_PATH="/home/root/on-device-ai-assistant/main.py"
+    SERVICE_PATH="/etc/systemd/system/on-device-ai-assistant.service"
 
     # Make sure the Python script is executable
     chmod +x "$SCRIPT_PATH"
@@ -89,7 +89,8 @@ Description=On Device Assistant
 After=network.target
 
 [Service]
-ExecStart=/bin/bash -c 'source /home/root/on-device-assistant/.venv/bin/activate && /home/root/on-device-assistant/.venv/bin/python3 /home/root/on-device-assistant/main.py'
+WorkingDirectory=/home/root/on-device-ai-assistant
+ExecStart=/home/root/on-device-ai-assistant/.venv/bin/python3 /home/root/on-device-ai-assistant/main.py
 Restart=on-failure
 User=root
 
@@ -104,10 +105,10 @@ WantedBy=multi-user.target
     systemctl daemon-reload
 
     # Enable the service to start on boot
-    systemctl enable on-device-assistant.service
+    systemctl enable on-device-ai-assistant.service
 
     # Start the service immediately
-    systemctl start on-device-assistant.service
+    systemctl start on-device-ai-assistant.service
 
     echo "Service has been installed. It will run on boot."
 else

@@ -1,0 +1,217 @@
+{
+    "threshold": 0.3,
+    "voice": {
+        "onnx_file":"en/en_US/amy/medium/en_US-amy-medium.onnx", 
+        "json_file":"en/en_US/amy/medium/en_US-amy-medium.onnx.json"
+      },
+    "qa_pairs": [
+            {
+                "question": "Sheilds up.",
+                "answer": "Sheilds are at 100%."
+            },
+            {
+                "question": "When will we return home?",
+                "answer": "Mission duration remaining is 512 days"
+            },
+            {
+                "question": "Computer, status report.",
+                "answer": "All ships systems are operating within normal parameters."
+            },
+            {
+                "question": "When will we arrive?",
+                "answer": "We will enter mars orbit in 8 days."
+            },
+            {
+                "question": "What is the current warp factor?",
+                "answer": "The ship is not currently at warp. Experimental warp systems are in standby mode for testing purposes."
+            },
+            {
+                "question": "Set course or change direction",
+                "answer": "Course change is confirmed."
+            },
+            {
+                "question": "What is the name of the spacecraft?",
+                "answer": "The spacecraft is called The Astra."
+            },
+            {
+                "question": "Open the pod bay doors, please",
+                "answer": "Certainly. Pod bay doors are now open"
+            },
+            {
+                "question": "Do we have any advanced defensive systems onboard?",
+                "answer": "This is a science mission, but the ship is equipped with an emergency deflection shield."
+            },
+            {
+                "question": "Who are you? What is your name?",
+                "answer": "I am Synaptics Astra S L 16 80, the ship's AI assistant."
+            },
+            {
+                "question": "What is our current position or location?",
+                "answer": "The ship is fifty million kilometers from Earth."
+            },
+            {
+                "question": "What is our destination?",
+                "answer": "Our destination is Mars."
+            },
+            {
+                "question": "What is our current speed?",
+                "answer": "The ship is traveling at twenty-five thousand kilometers per hour."
+            },
+            {
+                "question": "How many crew members are on the ship?",
+                "answer": "There are six crew members onboard."
+            },
+            {
+                "question": "What is the current health status of the crew?",
+                "answer": "All crew members are in good health."
+            },
+            {
+                "question": "What is the Prime Directive?",
+                "answer": "The Prime Directive is to conduct peaceful exploration, avoid interfering with celestial bodies' natural processes, and not interfere with extraterrestrial ecosystems."
+            },
+            {
+                "question": "Have we detected any anomalies in subspace readings?",
+                "answer": "Yes, faint subspace ripples were detected near a passing star system."
+            },
+            {
+                "question": "Scan short range sensors.",
+                "answer": "An automated distress signal of unknown origin has been detected from LV 4 2 6. Further analysis is underway."
+            },
+            {
+                "question": "What power source is the ship using?",
+                "answer": "The ship uses solar arrays and a fusion reactor. However, Synaptics Astra consumes as little as 3 watts active power."
+            },
+            {
+                "question": "What is the ship's AI capable of?",
+                "answer": "The AI manages navigation, life support, scientific data analysis, and crew assistance."
+            },
+            {
+                "question": "Is the ship's trajectory stable?",
+                "answer": "Yes, the trajectory is stable and on course."
+            },
+            {
+                "question": "How far are we from Mars?",
+                "answer": "The ship is thirty million kilometers from Mars."
+            },
+            {
+                "question": "Has the ship encountered any spatial distortions?",
+                "answer": "Yes, a minor gravitational lensing effect was observed near an asteroid cluster."
+            },
+            {
+                "question": "What is the primary mission objective?",
+                "answer": "The mission objective is to land on Mars, deploy a research station, and search for signs of past life."
+            },
+            {
+                "question": "Do we have any experimental propulsion systems onboard?",
+                "answer": "Yes, the ship is equipped with ion thrusters for precise adjustments and a prototype warp field generator for testing."
+            },
+            {
+                "question": "What is the status of the ship's long-range sensors?",
+                "answer": "Long-range sensors are operational and scanning for unusual phenomena."
+            },
+            {
+                "question": "Have we encountered any unidentified energy signatures?",
+                "answer": "Yes, an energy signature of unknown origin was detected briefly near a comet's trajectory."
+            },
+            {
+                "question": "What is the operational status of the ship's gravity simulator?",
+                "answer": "The gravity simulator is active and providing partial artificial gravity."
+            },
+            {
+                "question": "What is the current communication status with Earth?",
+                "answer": "Communication with Earth is stable, with a ten-minute delay each way."
+            },
+            {
+                "question": "Has the ship's AI identified any potential threats nearby?",
+                "answer": "No immediate threats have been detected within our operational range."
+            },
+            {
+                "question": "Are we monitoring any signals from beyond our solar system?",
+                "answer": "Yes, the ship is continuously monitoring faint radio signals from interstellar space."
+            },
+            {
+                "question": "What are the crew’s responsibilities for today?",
+                "answer": "Today's tasks include monitoring navigation systems and conducting a spacewalk to inspect the hull."
+            },
+            {
+                "question": "What is the ship's protocol for first contact scenarios?",
+                "answer": "The ship is equipped with linguistic AI to analyze potential communication and a protocol for peaceful engagement."
+            },
+            {
+                "question": "Have we mapped any previously uncharted celestial objects?",
+                "answer": "Yes, the ship's sensors have logged two new asteroids and a rogue ice planet."
+            },
+            {
+                "question": "What phase of the mission are we currently in?",
+                "answer": "The mission is in the mid-cruise phase, preparing for Mars orbital insertion."
+            },
+            {
+                "question": "Is there any risk of solar storms in the near future?",
+                "answer": "No solar storms are predicted for the next seventy-two hours."
+            },
+            {
+                "question": "What is the current status of the Mars landing module?",
+                "answer": "The Mars landing module is secure and undergoing pre-landing diagnostics."
+            },
+            {
+                "question": "What is the operational range of our sensors?",
+                "answer": "The sensors can detect anomalies up to two hundred thousand kilometers away."
+            },
+            {
+                "question": "Has the ship discovered any unusual elements or materials in space?",
+                "answer": "Yes, a fragment of an asteroid contains traces of an unknown alloy. Samples will be analyzed."
+            },
+            {
+                "question": "Are we currently on course to avoid interstellar debris?",
+                "answer": "Yes, the navigation system has plotted a course to avoid all detected debris."
+            },
+            {
+                "question": "Are we monitoring any quantum fluctuations nearby?",
+                "answer": "Yes, minor quantum fluctuations have been detected, likely from high-energy particles in the vicinity."
+            }
+        ],
+    "validation": {
+        "questions": [
+            "What is our current speed?",
+            "How far are we from Mars?",
+            "What is our current fuel level?",
+            "Why did the engines reduce thrust?",
+            "Is the life support system functioning normally?",
+            "How do I check the oxygen levels on board?",
+            "Why are we receiving an alert about solar radiation?",
+            "Can you show me the mission timeline?",
+            "How do I reset the ship's navigation system?",
+            "Why is the temperature in the cargo bay fluctuating?",
+            "How often should we recalibrate the ship's sensors?",
+            "Why is the artificial gravity acting irregularly?",
+            "What caused the power fluctuation in the main reactor?",
+            "How do I stop the alarm from repeating?",
+            "Why are communications delayed?",
+            "Can the ship's shields handle a meteor shower?",
+            "Why is the hydroponics bay not producing as expected?",
+            "Who do I contact in case of a system override?",
+            "Why is the propulsion system emitting unusual vibrations?"
+        ],
+        "answers": [
+            "Our current speed is 25,000 km/h relative to Earth, with a steady acceleration toward Mars.",
+            "We are currently 150 million kilometers from Mars and closing the gap at a steady rate.",
+            "The ship's fuel reserves are at 75%. All systems are functioning efficiently.",
+            "The engines reduced thrust to conserve fuel during this phase of the mission. This is within operational parameters.",
+            "Yes, all life support systems are operating at optimal levels, ensuring a safe environment for the crew.",
+            "Oxygen levels are at 21% in the main cabin. Check the environmental controls panel for detailed metrics.",
+            "The alert indicates a spike in solar activity. Shields have been adjusted to compensate.",
+            "The mission timeline has been uploaded to your console. You can access it in the 'Mission Overview' section.",
+            "To reset navigation, hold the navigation reset button for 10 seconds, then input the new coordinates manually.",
+            "Temperature fluctuations are due to recalibration of thermal regulators. The issue will resolve in approximately 10 minutes.",
+            "Ship sensors should be recalibrated every 24 hours. I will notify you when the next recalibration is due.",
+            "Artificial gravity irregularities are caused by a minor fluctuation in the graviton field generator. Adjustments are underway.",
+            "The power fluctuation was due to a temporary surge in reactor output. The reactor has stabilized now.",
+            "To stop the alarm, acknowledge it on the control panel, or provide a voice command: 'Acknowledge alarm.'",
+            "Communications are delayed due to the increasing distance from Earth. Current delay is 8 minutes one way.",
+            "The shields are designed to withstand meteor showers of this magnitude. No action is required.",
+            "The hydroponics bay output is lower than expected due to a nutrient imbalance. Adjustments are being made.",
+            "For a system override, contact the mission commander or refer to the emergency protocols in your manual.",
+            "Unusual vibrations are caused by a temporary imbalance in the propulsion system. Diagnostics are in progress."
+        ]
+    }
+}

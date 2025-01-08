@@ -1,14 +1,6 @@
 [
     {
         "token": "{time}",
-        "command": "date +\"%B %d at %I.%M%p\""
-    },
-    { 
-        "token": "{weather}",
-        "command": "curl -s 'http://wttr.in/San+Jose?format=%C+%t'"
-    },
-    {
-        "token": "{joke}",
-        "command": "curl -s 'https://official-joke-api.appspot.com/random_joke' | sed -n 's/.*\"setup\":\"\\([^\"]*\\)\",\"punchline\":\"\\([^\"]*\\)\".*/\\1 \\2/p'"
+        "command": "python3 ./src/time.py"
     }
 ]
