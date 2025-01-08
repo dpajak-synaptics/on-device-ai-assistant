@@ -43,13 +43,14 @@ Created by Dominic Pajak, Synaptics Inc. with thanks to Aditya Sahu, Andrew Dugg
     ```bash
     source .venv/bin/activate
     ```
-5. Test the setup:
-    ```bash
-    python3 main.py
-    ```
 6. Download the models and pre-generate WAV files for faster responses:
     ```bash
     python3 run_first.py
+    ```
+    
+5. Run assistant:
+    ```bash
+    python3 main.py
     ```
 
 ---
