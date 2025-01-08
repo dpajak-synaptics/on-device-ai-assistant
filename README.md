@@ -47,9 +47,9 @@ Created by Dominic Pajak, Synaptics Inc. with thanks to Aditya Sahu, Andrew Dugg
     ```bash
     python3 main.py
     ```
-6. Pre-generate WAV files for faster responses:
+6. Download the models and pre-generate WAV files for faster responses:
     ```bash
-    python3 prebuild-wavs.py
+    python3 run_first.py
     ```
 
 ---
