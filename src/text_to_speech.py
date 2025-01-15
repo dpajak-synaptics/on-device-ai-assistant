@@ -3,6 +3,7 @@ from huggingface_hub import hf_hub_download
 from src.utils import file_checksum
 
 DEMO_DIR = os.path.dirname(__file__)
+MODELS_DIR = os.path.join(DEMO_DIR, '../models/')
 
 def download_model_files(onnx_file, json_file):
     """Download required model files from Hugging Face Hub."""
@@ -10,11 +11,13 @@ def download_model_files(onnx_file, json_file):
     # Download files using huggingface_hub with default cache directory
     onnx_model_path = hf_hub_download(
         repo_id="rhasspy/piper-voices", 
-        filename=onnx_file
+        filename=onnx_file,
+        local_dir=MODELS_DIR
     )
     json_model_path = hf_hub_download(
         repo_id="rhasspy/piper-voices", 
-        filename=json_file
+        filename=json_file,
+        local_dir=MODELS_DIR
     )
 
     return onnx_model_path, json_model_path

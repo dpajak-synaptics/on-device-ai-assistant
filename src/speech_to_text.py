@@ -2,7 +2,12 @@ from huggingface_hub import hf_hub_download
 import onnxruntime
 import numpy as np
 import time
+import os
 from tokenizers import Tokenizer
+
+
+DEMO_DIR = os.path.dirname(__file__)
+MODELS_DIR = os.path.join(DEMO_DIR, '../models/')
 
 class SpeechToText:
     def __init__(self, model_name="base", rate=16000):
@@ -36,13 +41,13 @@ class SpeechToText:
         repo = "UsefulSensors/moonshine"
         model_name = model_name.split("/")[-1]
         return (
-            hf_hub_download(repo, f"{x}.onnx", subfolder=f"onnx/{model_name}")
+            hf_hub_download(repo, f"{x}.onnx", subfolder=f"onnx/{model_name}", local_dir=MODELS_DIR)
             for x in ("preprocess", "encode", "uncached_decode", "cached_decode")
         )
 
     def _load_tokenizer_from_hf_hub(self):
         repo = "UsefulSensors/moonshine-base"
-        tokenizer_file = hf_hub_download(repo, "tokenizer.json")
+        tokenizer_file = hf_hub_download(repo, "tokenizer.json", local_dir=MODELS_DIR)
         return Tokenizer.from_file(tokenizer_file)
 
     def _generate(self, audio, max_len=None):
