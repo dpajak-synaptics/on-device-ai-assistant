@@ -25,7 +25,7 @@ Created by Dominic Pajak, Synaptics Inc. with thanks to Aditya Sahu, Andrew Dugg
 ### Prerequisites
 
 - Synaptics Astra SL1680 board with Astra OOBE image v1.2 or above
-- Internet connection for initial setup
+- Astra board needs Internet connection for initial setup
 - USB speakerphone device connected (check it is recognized by using `aplay -l`)
 
 ### Steps
