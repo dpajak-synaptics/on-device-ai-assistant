@@ -42,6 +42,7 @@ print_message $GREEN "Installing Llama.cpp embedding..."
 print_message $GREEN "=================================\n"
 git clone --branch master --single-branch https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
+git checkout a800ae46da2ed7dac236aa6bf2b595da6b6294b5
 cmake -B build 
 cmake --build build --config release --target llama-embedding
 #cmake --build build --config release --target llama-cli
@@ -51,7 +52,7 @@ cd "$CURRENT_DIR"
 # Check if .venv directory exists
 if [ ! -d ".venv" ]; then
     print_message $GREEN "Virtual environment not found. Creating one..."
-    python3 -m venv .venv || { print_message $RED "Failed to create virtual environment. Exiting."; exit 1; }
+    python3 -m venv .venv --system-site-packages || { print_message $RED "Failed to create virtual environment. Exiting."; exit 1; }
 fi
 
 # Activate the virtual environment

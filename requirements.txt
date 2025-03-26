@@ -1,3 +1,4 @@
+onnxruntime>=1.20.0,<1.21.0
 numpy
 scikit-learn
 tqdm
