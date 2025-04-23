@@ -1,3 +1,13 @@
+> [!IMPORTANT]  
+> 
+> # This repo is no longer maintained.
+>
+> Please refer to official Synaptics AI assistant examples:
+> https://github.com/synaptics-synap/examples
+> 
+ 
+
+
 # On-Device AI Voice Assistant
 
 ![](./docs/banner.gif)
