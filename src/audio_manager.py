@@ -32,8 +32,10 @@ class AudioManager:
         """Play the audio file using the specified audio device."""
         if not self._device:
             raise RuntimeError("Audio device not set.")
-        print(f"Playing audio file: {filename} on device: {self._device}")
-        subprocess.run(["aplay", "-D", self._device, filename], check=True)
+        
+        device = "plugplay" if getattr(self, "_astra_version", "") == "1.6.0" else self._device
+        subprocess.run(["aplay", "-D", device, filename], check=True)
+
 
     def start_arecord(self, chunk_size=512):
         """Start the arecord subprocess."""
@@ -73,23 +75,64 @@ class AudioManager:
                 print(output)
                 break
 
+    def _get_astra_version(self):
+        """Return Astra SDK version if available."""
+        try:
+            with open("/etc/astra_version", "r") as f:
+                return f.read().strip()
+        except Exception:
+            return ""
+
+    def _create_asoundrc_for_sdk_1_6(self):
+        """Write ~/.asoundrc configuration for Astra SDK v1.6 using detected USB Audio device."""
+        try:
+            pcm_output = subprocess.check_output("cat /proc/asound/pcm", shell=True, text=True)
+            for line in pcm_output.splitlines():
+                if "usb" in line.lower() and "audio" in line.lower():
+                    hw_id = line.split(":")[0].strip()
+                    card, dev = [str(int(x)) for x in hw_id.split("-")]
+                    name = line.split(":")[1].strip().split()[0]
+                    asoundrc_content = f"""
+pcm.plugplay {{
+    type plug
+    slave {{
+        pcm "hw:{card},{dev}"
+        period_size 1024
+        buffer_size 2048
+    }}
+}}
+"""
+                    with open(os.path.expanduser("~/.asoundrc"), "w") as f:
+                        f.write(asoundrc_content)
+                    print(f"~/.asoundrc created using USB Audio card {card}, device {dev} ({name})")
+                    return
+            print("No USB audio device found in /proc/asound/pcm")
+        except Exception as e:
+            print(f"Failed to create ~/.asoundrc: {e}")
+
     def _get_usb_audio_device(self):
         """Finds the audio device ID for a USB Audio device using `aplay -l`."""
         self.wait_for_audio()
+        self._astra_version = self._get_astra_version()
+
+        if self._astra_version == "1.6.0":
+            self._create_asoundrc_for_sdk_1_6()
+            print("Using 'plugplay' device for Astra SDK v1.6.0")
+            return "plugplay"
 
         try:
             result = subprocess.run(["aplay", "-l"], capture_output=True, text=True, check=True)
             lines = result.stdout.splitlines()
             for line in lines:
                 if "USB Audio" in line:
-                    # Extract card and device numbers
                     card_line = line.split()
                     card_index = card_line[1][:-1]  # Removes trailing colon
                     device_name = f"plughw:{card_index},0"
-                    print(f"Found audio device: {device_name}")
+                    # print(f"Found audio device: {device_name}")
                     return device_name
         except subprocess.CalledProcessError as e:
             print(f"Error running `aplay -l`: {e}")
             return None
 
         return "default"
+
