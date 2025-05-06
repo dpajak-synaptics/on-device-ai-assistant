@@ -3,10 +3,23 @@ import os
 import numpy as np
 
 class AudioManager:
-    def __init__(self, device=None, sample_rate=16000):
+    def __init__(self, device=None, sample_rate=16000, channels=2):
+        self._astra_version = self._get_astra_version()
         self._device = device or self._get_usb_audio_device()
         self._sample_rate = sample_rate
         self.arecord_process = None
+        self._channels = channels
+        
+        # If Astra SDK 1.6 and specific headset detected → force 48kHz
+        if self._astra_version == "1.6.0":
+            try:
+                aplay_output = subprocess.check_output("aplay -l", shell=True, text=True)
+                if any(name in aplay_output for name in ["H3 [INZONE H3]", "SPACE [SPACE]"]):
+                    self._sample_rate = 48000
+                    self._channels = 1
+                    print(f"Assigned 48000 Hz sample rate for device on Astra SDK v{self._astra_version}")
+            except Exception as e:
+                print(f"Warning: Failed to parse aplay output for headset detection: {e}")
 
     @property
     def device(self):
@@ -37,11 +50,12 @@ class AudioManager:
         subprocess.run(["aplay", "-D", device, filename], check=True)
 
 
+
     def start_arecord(self, chunk_size=512):
         """Start the arecord subprocess."""
         if self.arecord_process:
             self.stop_arecord()
-        command = f"arecord -D {self._device} -f S16_LE -r {self._sample_rate} -c 2"
+        command = f"arecord -D {self._device} -f S16_LE -r {self._sample_rate} -c {self._channels}"
         self.arecord_process = subprocess.Popen(
             command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, bufsize=chunk_size, shell=True
         )
@@ -88,7 +102,10 @@ class AudioManager:
         try:
             pcm_output = subprocess.check_output("cat /proc/asound/pcm", shell=True, text=True)
             for line in pcm_output.splitlines():
-                if "usb" in line.lower() and "audio" in line.lower():
+                line_lower = line.lower()
+                # Check for USB audio device with playback and capture capabilities
+                # Example line: "00-01: USB Audio : USB Audio : playback 1 : capture 1"
+                if "usb" in line_lower and "audio" in line_lower and "playback" in line_lower and "capture" in line_lower:
                     hw_id = line.split(":")[0].strip()
                     card, dev = [str(int(x)) for x in hw_id.split("-")]
                     name = line.split(":")[1].strip().split()[0]
@@ -113,7 +130,6 @@ pcm.plugplay {{
     def _get_usb_audio_device(self):
         """Finds the audio device ID for a USB Audio device using `aplay -l`."""
         self.wait_for_audio()
-        self._astra_version = self._get_astra_version()
 
         if self._astra_version == "1.6.0":
             self._create_asoundrc_for_sdk_1_6()
