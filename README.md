@@ -10,8 +10,6 @@
 
 # On-Device AI Voice Assistant
 
-![](./docs/banner.gif)
-
 This demonstration showcases an contextual AI voice assistant operating entirely on-device, with no cloud dependency or offloading, designed to run on [Synaptics Astra](https://www.synaptics.com/products/embedded-processors/astra-machina-foundation-series) Machina SL1680 linux development board. 
 
 - Understanding context-specific queries.
